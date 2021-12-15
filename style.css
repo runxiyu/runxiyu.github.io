@@ -36,3 +36,15 @@ h1 {
 	line-height: 1.2;
 	font-size: 80%;
 }
+a:link {
+  color: cyan;
+}
+a:visited {
+  color: violet;
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: lime;
+}
