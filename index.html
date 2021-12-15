@@ -1,38 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
-		<link rel=stylesheet href="style.css" type="text/css" />
 		<title>Andrew Yu's WIP website</title>
+		<link rel="stylesheet" href="/style.css" />
 	</head>
 	<body>
 		<h1>Andrew Yu's WIP website</h1>
-		<p>I recently switched from Linux to OpenBSD on all of my servers and some desktop/laptops.  I'm going to rewrite the site soon, see you then!</p>
-		<p>Things done:</p>
-		<dl>
-			<dt>web</dt><dd>httpd, certbot, htaccess</dd>
-			<dt>email</dt><dd>smtpd, dovecot, rspamd</dd>
-		</dl>
-		<h2>Sites</h2>
-		<p>I maintain a few sites on my server.</p>
-		<dl>
-			<dt>Public projects code on the Web</dt><dd><a href="https://project.andrewyu.org">https://projects.andrewyu.org</a></dd>
-			<dt>Git bare repos for public projects</dt><dd><a href="https://git.andrewyu.org">https://git.andrewyu.org</a></dd>
-			<dt>My personal blog</dt><dd><a href="https://blog.andrewyu.org">https://blog.andrewyu.org</a></dd>
-			<dt>File storage space</dt><dd><a href="https://lib.andrewyu.org">https://lib.andrewyu.org</a></dd>
-		</dl>
-		<p>Note: Some of these sites are unpopulated.  Some of these sites look ugly.  Some of these sites don't exist yet.  This is, again, a new server, I'm probably going to fix that sooner or later.  If you still find it empty in a while, please tell me about that.  If you could get me a stylesheet that's A350 ECAM-style, I'd appreciate that!  Just note that it's gotta be under a free license.  I'm not an expert in HTML and stuff, and I'm thinking of alternative protocols (including Gopher and Gemini, but I need to find sane UNIX-ey daemons).  I maintain the source of my website and blog on <a href="https://git.andrewyu.org">https://git.andrewyu.org</a> because I like hosting stuff myself as far as possible.</p>
-		<h2>Contact</h2>
-		<p>There are many ways to contact me.  None of these require proprietary software.</p>
-		<ul>
-			<li>talk to me in real life</li>
-			<li>mail <a href="mailto:andrew@andrewyu.org">andrew@andrewyu.org</a></li>
-			<li>irc <a href="irc://irc.libera.chat:6697/AndrewYu">Andrew on Libera</a></li>
-			<li>irc <a href="irc://irc.libera.chat:6697/AndrewYu">Andrew on AndrewIRC</a></li>
-		</ul>
-		<p>Note: I am not always on IRC until I get my bouncer set up.  AndrewIRC won't be up until I find a sane minimal server, then install and configure it.</p>
-		<p>Caution: This server is quite new, and it seems to be in some dnsbl lists.  I'll try to get o you by other means if my email gets blocked.  Seems to be an issue with my reverse DNS, which I recently fixed.  We'll see.  Writing to me won't be affected though.</p>
-		<hr />
-		<p><small>This is free and unencumbered software released into the public domain.  Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.  In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law.  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  For more information, please refer to <a href="https://unlicense.org/">https://unlicense.org</a></small></p>
-		<p><small>I know that this website is not a program and that HTML isn't considered a programming language.  Nevertheless, you can think of the HTML as code---even the plain text i write could also be considered code since languages are a code to give information.  Anyways, stuff on here that's supposed to be public (don't try to spoof my htaccess, don't hack my ssh, don't snoop on my email, etc) is public domain, including my projects and my git repos, unless otherwise specified by a file that looks like COPYING, LICENSE or licensing stuff in the source itself. <a href="https://stpeter.im/writings/essays/publicdomain.html">https://stpeter.im/writings/essays/publicdomain.html</a> is a good explanation on why people put stuff in the public domain.</small></p>
+		<div class="multicol">
+			<div id="sites">
+				<h2>Status of this website</h2>
+				<p>I recently switched from GNU/Linux to OpenBSD on all of my servers and some desktop/laptops.  I'm going to rewrite the site soon, see you then!</p>
+				<p>Things done:</p>
+				<dl>
+					<dt>web</dt><dd>httpd, certbot, htaccess</dd>
+					<dt>email</dt><dd>smtpd, dovecot, rspamd</dd>
+				</dl>
+				<p>I maintain a few sites on my server.</p>
+				<dl>
+					<dt>Public projects code on the Web</dt><dd><a href="https://project.andrewyu.org">https://projects.andrewyu.org</a></dd>
+					<dt>Git bare repos for public projects</dt><dd><a href="https://git.andrewyu.org">https://git.andrewyu.org</a></dd>
+					<dt>My personal blog</dt><dd><a href="https://blog.andrewyu.org">https://blog.andrewyu.org</a></dd>
+					<dt>File storage space</dt><dd><a href="https://lib.andrewyu.org">https://lib.andrewyu.org</a></dd>
+				</dl>
+				<p>Note: Some of these sites are unpopulated.  Some of these sites look ugly.  Some of these sites don't exist yet.  This is, again, a new server, I'm probably going to fix that sooner or later.  If you still find it empty in a while, please tell me about that.  If you could get me a stylesheet that's high contrast but colorful, I'd appreciate that!  Just note that it's gotta be under a free license.  I'm not an expert in HTML and stuff, and I'm thinking of alternative protocols (including Gopher and Gemini, but I need to find sane UNIX-ey daemons).  I maintain the source of my website and blog on <a href="https://git.andrewyu.org">https://git.andrewyu.org</a> because I like hosting stuff myself as far as possible.</p>
+			</div>
+			<div id="ponder">
+				<h2>Help me ponder upon these questions</h2>
+				<h3>Help me choose licenses</h3>
+				<p>I am currently unable to decide what license should I choose for my programs and other works.  I used to use the GNU General Public License.  Then I realized that (1) the GPL causes compatibility problems with those who wish to use another [free] license (who do exist) and (2) the GPL restricts on what a user can do with a work.  I'm thinking of what freedom actually means---there are freedoms to do things and freedoms from being the object of some other person doing something.</p>
+				<h3>What about a pure functional Lisp dialect, with monads and similar ideas?</h3>
+				<p>I love s-expressions, as they clearly represent the structure of a program, or even natural language. (To be extended)</p>
+				<h3>What about a mathematical politicol system?</h3>
+				<p>(To be extended)</p>
+			</div>
+			<div id="me">
+				<h2>About me</h2>
+				<p>I am Andrew Yu, a secondary school student in Shanghai, China.  My main fields of interest are philosophy (especially moral philosophy, and especially especially moral philosophy in technology), metamathematics, programming fundementals and molecular biology. (To be extended)</p>
+			</div>
+			<div id="contact">
+				<h2>Contact</h2>
+				<p>There are many ways to contact me.  None of these require proprietary software.</p>
+				<ul>
+					<li>talk to me in real life</li>
+					<li>mail <a href="mailto:andrew@andrewyu.org">andrew@andrewyu.org</a></li>
+					<li>irc <a href="irc://irc.libera.chat:6697/AndrewYu">Andrew on Libera</a></li>
+					<li>irc <a href="irc://irc.libera.chat:6697/AndrewYu">Andrew on AndrewIRC</a></li>
+				</ul>
+				<p>Note: I am not always on IRC until I get my bouncer set up.  AndrewIRC won't be up until I find a sane minimal server, then install and configure it.</p>
+				<p>Caution: This server is quite new, and it seems to be in some dnsbl lists.  I'll try to get o you by other means if my email gets blocked.  Seems to be an issue with my reverse DNS, which I recently fixed.  We'll see.  Writing to me won't be affected though.</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>This site is designed to be viewable with plain text, only a few typographic and web design conventions are followed. Do you agree that max-width: 75ex makes sense?  I do that since people have a hard time scanning scross lines.  Also, I use a monospace font because that's what I'm used to.  I prefer the Airbus B612Mono font, but I respect your preference by just saying font-family: monospace.  If you read this on a plain text browser like me, this won't matter, of course.  I'm also looking for a high-contrast colorful stylesheet.  As you can see, I did use some flexboxes in here.  They don't seem to respect min-width and max-width properly, especially min-wdith.  Tell me if you have a solution, thanks.</p>
+			<p>This is free and unencumbered software released into the public domain.  Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.  In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law.  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  For more information, please refer to uestions
+				Help me choose licenses
+				I am currently unable to decide what license should I choose for my programs and other works. I used to use the GNU General Public License. Then I realized that (1) the GPL causes compatibility problems with those who wish to use another [free] license (who do exist) and (2) the GPL restricts on what a user can do with a work. I'm thinking of what freedom actually means---there are freedoms to do things and freedoms from being the object of some other person doing something.
+
+				What about a pure functional Lisp dialect, with monads and similar ideas?
+				<a href="https://unlicense.org/">https://unlicense.org</a></p>
+			<p>I know that this website is not a program and that HTML isn't considered a programming language.  Nevertheless, you can think of the HTML as code---even the plain text I write could also be considered code since languages are a code to give information.  Anyways, stuff on here that's supposed to be public (don't try to spoof my htaccess, don't hack my ssh, don't snoop on my email, etc) is public domain, including my projects and my git repos, unless otherwise specified by a file that looks like COPYING, LICENSE or licensing stuff in the source itself. <a href="https://stpeter.im/writings/essays/publicdomain.html">https://stpeter.im/writings/essays/publicdomain.html</a> is a good explanation on why people put stuff in the public domain.  However, you might want to see the "Help me choose licenses" section on this page.</p>
+		</div>
 	</body>
 </html>

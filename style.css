@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	width: 98%;
+	margin: auto;
+	line-height: 1.3;
+}
+h1 {
+	text-align: center;
+}
+.multicol {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 2%;
+}
+.multicol div {
+	max-width: 75ex;
+	min-width: 35ex;
+	flex-basis: | auto;
+	/*******************************/
+	/* margin: auto;			   */
+	/* border: 1px solid white;	   */
+	/* margin-left: auto;		   */
+	/* margin-right: auto;		   */
+	/* margin-bottom: auto;		   */
+	/* width: 30%;				   */
+	/* flex-shrink: 5;			   */
+	/* flex-grow: 5;			   */
+	/*******************************/
+}
+#footer {
+	line-height: 1.2;
+	font-size: 80%;
+}
