@@ -1,0 +1,18 @@
+Steps for updating your website
+
+I'll be showing you how to do that with my website now, shouldn't be much different
+
+Firstly, open up the directory you cloned.
+
+I told you to git clone akhil@git.andrewyu.org:/var/www/git.andrewyu.org/akhil-www-pub, so you cd into ~/akhil-www-pub
+
+I do that in my ~/www, since I don't have your website on my computer
+
+I'm using the acme text editor for today, doesn't matter
+
+When I use a red box to select text, that just means "execute this command"
+
+cd www
+git add .
+git commit -m "added reference to haskell"
+git push
