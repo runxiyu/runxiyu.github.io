@@ -73,3 +73,6 @@ a:active {
 	font-weight: bold;
 	color: white;
 }
+.alert {
+	color: orange;
+}
