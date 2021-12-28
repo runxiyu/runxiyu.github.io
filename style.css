@@ -16,25 +16,11 @@ h1 {
 	/* justify-content: center; */
 	/* align-items: flex-start; */
 	/* align-content: flex-start; */
-	/* /\* height: calc(100vh); *\/ */
-	gap: 2%;
+	/* height: calc(100vh); */
+	gap: 3%;
 }
 .multicol div {
-	/* min-width: 15ex; */
-	/* max-width: 75ex; */
-	/* margin-left: auto; */
-	/* margin-right: auto; */
-	/* flex-basis: | auto; */
-	/*******************************/
-	/* margin: auto;			   */
-	/* border: 1px solid white;	   */
-	/* margin-left: auto;		   */
-	/* margin-right: auto;		   */
-	/* margin-bottom: auto;		   */
-	/* width: 30%;				   */
-	/* flex-shrink: 5;			   */
-	/* flex-grow: 5;			   */
-	/*******************************/
+	min-width: 30ex;
 }
 #footer {
 	line-height: 1.2;
@@ -72,6 +58,9 @@ a:active {
 #nav ul li a {
 	font-weight: bold;
 	color: white;
+}
+.alarm {
+	color: red;
 }
 .alert {
 	color: orange;
