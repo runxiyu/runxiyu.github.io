@@ -81,7 +81,7 @@ a:active {
 #campaign {
 	color: red;
 	display: block;
-	border: 1px solid red;
+	border: 3px dashed red;
 	transition: padding 1s, font-size 1s;
 }
 #campaign:hover{
@@ -90,7 +90,7 @@ a:active {
 	animation-name: shake;
 	animation-iteration-count: 1;
 	animation-duration: 3s;
-	padding: 10ex;
+	padding: 4ex;
 }
 .alarm {
 	color: red;
