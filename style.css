@@ -22,7 +22,7 @@ h1 {
 }
 .multicol div {
 	min-width: 30ex;
-	max-width: 160ex;
+	max-width: 100ex;
 	margin: auto;
 }
 #footer {
