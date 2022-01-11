@@ -79,27 +79,23 @@ a:active {
 #nav ul li {
 	display: inline;
 	padding: 0 1.5em;
+	border: none;
 }
 #nav ul li a {
 	font-weight: bold;
 }
-@keyframes borderBlinkRed {	
-	0% {	
-		border-color: transparent;
-	}
-	50% {	
-		border-color: red;
-	}
-}	
 #campaign {
 	color: red;
 	display: block;
 	border: 1px solid red;
-	animation-name: borderBlinkRed;
-	animation-duration: .2s;
-	animation-timing-function: step-end;
-	animation-iteration-count: 20;
-	animation-direction: alternate;
+	transition: font-size 3s, transform 0.3s;
+}
+#campaign:hover{
+	font-size: 200%;
+	transition: font-size 0.3s, transform 0.3s;
+	animation-name: shake;
+	animation-iteration-count: 8;
+	animation-duration: 0.3s;
 }
 .alarm {
 	color: red;
@@ -112,4 +108,9 @@ a:active {
 .good {
 	color: lime;
 	border: solid lime 1px;
+}
+@keyframes shake { 
+   0%, 100% {transform: rotate(0deg);} 
+   10%, 30%, 50%, 70%, 90% {transform: rotate(-7deg);} 
+   20%, 40%, 60%, 80% {transform: rotate(7deg);} 
 }
