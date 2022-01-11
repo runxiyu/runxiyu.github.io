@@ -23,7 +23,7 @@ p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:a
 h1 {
 	text-align: center;
 }
-.multicol {
+.wrapper {
 	margin: auto;
 	/* display: flex; */
 	/* flex-flow: row wrap; */
@@ -34,7 +34,7 @@ h1 {
 	/* height: calc(100vh); */
 	/* gap: 3%; */
 }
-.multicol div {
+.wrapper div {
 	min-width: 30ex;
 	max-width: 100ex;
 	margin: auto;
