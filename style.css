@@ -11,14 +11,14 @@ h1 {
 }
 .multicol {
 	margin: auto;
-	display: flex;
-	flex-flow: row wrap;
+	/* display: flex; */
+	/* flex-flow: row wrap; */
 	/* flex-flow: row wrap; */
 	/* justify-content: center; */
 	/* align-items: flex-start; */
 	/* align-content: flex-start; */
 	/* height: calc(100vh); */
-	gap: 3%;
+	/* gap: 3%; */
 }
 .multicol div {
 	min-width: 30ex;
