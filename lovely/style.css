@@ -292,7 +292,7 @@ html, body {
 }
 
 html {
-  perspective: 5000;
+  perspective: 0;
 }
 
 body {
