@@ -9,10 +9,10 @@ body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
 	padding: 2px;
 }
 body:hover, div:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
-	border: solid yellow 1px;
+	transition: all 0.5s;
 }
 body:active, div:active, p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
-	border: solid lime 1px;
+	transition: all 0.5s;
 }
 h1 {
 	text-align: center;
@@ -78,7 +78,15 @@ a:active {
 #nav ul li a {
 	font-weight: bold;
 }
+#majornote {
+	font-size: 120%;
+	color: lime;
+	display: block;
+	border: 3px dashed lime;
+	transition: all 0.5s;
+}
 #campaign {
+	font-size: 120%;
 	color: red;
 	display: block;
 	border: 3px dashed red;
