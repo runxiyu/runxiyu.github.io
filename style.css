@@ -10,8 +10,9 @@ h1 {
 	text-align: center;
 }
 .multicol {
+	margin: auto;
 	display: flex;
-	flex-flow: row;
+	flex-flow: row wrap;
 	/* flex-flow: row wrap; */
 	/* justify-content: center; */
 	/* align-items: flex-start; */
@@ -21,6 +22,8 @@ h1 {
 }
 .multicol div {
 	min-width: 30ex;
+	max-width: 160ex;
+	margin: auto;
 }
 #footer {
 	line-height: 1.2;
