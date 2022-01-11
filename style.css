@@ -90,7 +90,7 @@ a:active {
 	animation-name: shake;
 	animation-iteration-count: 1;
 	animation-duration: 3s;
-	padding: 4ex;
+	padding: 2ex;
 }
 .alarm {
 	color: red;
