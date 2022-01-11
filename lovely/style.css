@@ -318,16 +318,16 @@ body {
 		animation: rainbow 1s infinite;
 	}
 p:before {
-   content: "HACKER!  Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
+   content: "<a href=\"https://www.andrewyu.org\">HACKER!</a>  Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
 }
 h1:before {
-   content: "HACKER!  Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
+   content: "<a href=\"https://www.andrewyu.org\">HACKER!</a>   Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
 }
 li:before {
-   content: "HACKER!  Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
+   content: "<a href=\"https://www.andrewyu.org\">HACKER!</a>   Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
 }
 div:before {
-   content: "HACKER!  Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
+   content: "<a href=\"https://www.andrewyu.org\">HACKER!</a>   Hullo the CSS!   This is not the FBI, but look at the beautiful CSS!    :) :) :)    ";
 }
 
 p:hover {
