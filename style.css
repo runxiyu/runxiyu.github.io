@@ -64,6 +64,7 @@ a:active {
 }
 .alarm {
 	color: red;
+	font-size: 200%;
 }
 .alert {
 	color: orange;
