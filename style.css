@@ -65,9 +65,15 @@ a:active {
 #nav ul li a {
 	font-weight: bold;
 }
-.alarm {
+#campaign {
 	color: red;
 	font-size: 200%;
+	border: solid red 1px;
+	display: block;
+	padding: 2px;
+}
+.alarm {
+	color: red;
 	border: solid red 1px;
 }
 .alert {
