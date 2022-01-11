@@ -4,7 +4,7 @@ body {
 	font-family: sans-serif;
 	margin: 3%;
 	line-height: 1.4;
-	text-shadow: -3px 0 red, 0 3px lime, 3px 0 yellow, 0 -3px blue;
+	text-shadow: -1px 0 red, 0 1px lime, 1px 0 yellow, 0 -1px blue;
 }
 body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
 	padding: 2px;
@@ -172,6 +172,7 @@ html {
 
 p {
   cursor: help;
+  animation: spin 1s linear infinite; 
 }
 /*
   slowly grow text
@@ -247,7 +248,7 @@ html, body {
 }
 
 html {
-  perspective: 0;
+  perspective: 5000;
 }
 
 body {
