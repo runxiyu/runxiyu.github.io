@@ -94,15 +94,12 @@ a:active {
 }
 .alarm {
 	color: red;
-	border: solid red 1px;
 }
 .alert {
 	color: orange;
-	border: solid orange 1px;
 }
 .good {
 	color: lime;
-	border: solid lime 1px;
 }
 @keyframes shake { 
    0%, 100% {transform: rotate(0deg);} 
