@@ -11,13 +11,13 @@ body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
 body:hover, div:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
 	border: solid yellow 1px;
 }
-p:hover, li:hover {
+p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
 	color: yellow;
 }
 body:active, div:active, p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
 	border: solid lime 1px;
 }
-p:active, li:active {
+p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
 	color: lime;
 }
 h1 {
