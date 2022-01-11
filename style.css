@@ -91,14 +91,9 @@ a:active {
 	display: block;
 	border: 3px dashed red;
 	transition: padding 1s, font-size 1s;
-}
-#campaign:hover{
-	font-size: 300%;
-	transition: padding 1s, font-size 1s;
 	animation-name: shake;
 	animation-iteration-count: 1;
 	animation-duration: 3s;
-	padding: 2ex;
 }
 .alarm {
 	color: red;
