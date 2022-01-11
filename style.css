@@ -85,7 +85,7 @@ a:active {
 	transition: padding 1s, font-size 1s;
 }
 #campaign:hover{
-	font-size: 200%;
+	font-size: 300%;
 	transition: padding 1s, font-size 1s;
 	animation-name: shake;
 	animation-iteration-count: 1;
