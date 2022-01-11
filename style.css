@@ -95,7 +95,7 @@ a:active {
 	transition: font-size 0.3s, transform 0.3s;
 	animation-name: shake;
 	animation-iteration-count: 3;
-	animation-duration: 0.5s;
+	animation-duration: 1.2s;
 }
 .alarm {
 	color: red;
