@@ -297,8 +297,8 @@ html {
 
 body {
   transform-origin: bottom center;
-  bkit-transform: rotateX(-80deg);
-  animation: fall 480s ease-in;
+  -webkit-transform: rotateX(-80deg);
+  animation: fall 30s ease-in;
   transform-origin: bottom center;
   transform: rotateX(-90deg);
 }
