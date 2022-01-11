@@ -65,7 +65,13 @@ a:active {
 .alarm {
 	color: red;
 	font-size: 200%;
+	border: solid red 1px;
 }
 .alert {
 	color: orange;
+	border: solid orange 1px;
+}
+.good {
+	color: lime;
+	border: solid lime 1px;
 }
