@@ -17,19 +17,11 @@ body:active, div:active, p:active, h1:active, h2:active, h3:active, h4:active, h
 h1 {
 	text-align: center;
 }
-.wrapper {
+#main {
 	margin: auto;
-	/* display: flex; */
-	/* flex-flow: row wrap; */
-	/* flex-flow: row wrap; */
-	/* justify-content: center; */
-	/* align-items: flex-start; */
-	/* align-content: flex-start; */
-	/* height: calc(100vh); */
-	/* gap: 3%; */
+	columns: 6 50em;
 }
-.wrapper div {
-	min-width: 30ex;
+#main div {
 	max-width: 100ex;
 	margin: auto;
 }
