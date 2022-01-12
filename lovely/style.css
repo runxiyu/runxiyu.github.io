@@ -15,6 +15,7 @@ body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
 	animation-name: rotate;
 	animation-iteration-count: 1;
 	animation-duration: 3s;
+	border: 2px dotted gray;
 }
 body:hover, div:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
 	perspective: 500px;
