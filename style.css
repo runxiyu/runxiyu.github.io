@@ -89,7 +89,7 @@ a:active {
 }
 #memes {
 	margin: auto;
-	columns: 255 10em;
+	/* columns: 255 10em; */
 }
 .alarm {
 	color: red;
