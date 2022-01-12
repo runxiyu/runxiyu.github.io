@@ -10,20 +10,20 @@ body {
 	margin: 3%;
 	line-height: 1.4;
 }
-body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
+*, body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
 	padding: 2px;
 	animation-name: rotate;
 	animation-iteration-count: 1;
 	animation-duration: 3s;
 	border: 2px dotted gray;
 }
-body:hover, div:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
+*:hover, body:hover, div:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
 	perspective: 500px;
 	transition: all 1s;
 	border: 2px dotted red;
 	transform: rotateX(150deg);
 }
-body:active, div:active, p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
+*:hover, body:active, div:active, p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
 	perspective: 500px;
 	transition: all 1s;
 	transform: rotateX(480deg);
