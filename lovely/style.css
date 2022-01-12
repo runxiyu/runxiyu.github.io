@@ -2,10 +2,14 @@
   font-family: "yess";
   src: url(https://github.com/Luking9/Creepy-fonts/raw/master/damagrafik_script/DamagrafikScript-Regular.ttf) format("truetype");
 }
+
+p:before, li:before {
+	content: "Happy April Fools!  I am so glad to meet you, dear peppa pig!  Hooray!  Please check out the libre society project when you're AVAIL for some serious stuff.  For now, enjoy some CSS.               ";
+}
 body {
 	background-color: black;
 	color: white;
-	font-family: "yess";
+	font-family: "yess" cursive fantasy serif monospace sans-serif;
 	margin: 3%;
 	line-height: 1.4;
 }
@@ -13,23 +17,21 @@ body {
 	padding: 2px;
 	animation-name: rotate;
 	animation-iteration-count: 1;
-	animation-duration: 15s;
+	animation-duration: 5s;
 	border: 2px dotted gray;
 	transition: all 25s;
 }
 p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
 	perspective: 0px;
 	border: 2px dotted red;
+	font-size: 200%;
 	transition: all 5s;
-	transform: rotate(3840deg);
-	font-size: 150%;
 }
 p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
-	font-size: 180%;
+	font-size: 600%;
 	perspective: 0px;
 	border: 2px solid lime;
 	transition: all 5s;
-	transform: rotateY(45deg);
 }
 h1 {
 	text-align: center;
@@ -125,4 +127,7 @@ a:active {
 @keyframes rotate {
    from {transform: rotate(0deg);} 
    to {transform: rotate(720deg);} 
+}
+@keyframes grow {
+    to { font-size: 1000%; }
 }
