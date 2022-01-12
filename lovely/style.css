@@ -3,7 +3,6 @@
   src: url(https://github.com/Luking9/Creepy-fonts/raw/master/damagrafik_script/DamagrafikScript-Regular.ttf) format("truetype");
 }
 body {
-	perspective: 500px;
 	background-color: black;
 	color: white;
 	font-family: "yess";
@@ -14,20 +13,23 @@ body {
 	padding: 2px;
 	animation-name: rotate;
 	animation-iteration-count: 1;
-	animation-duration: 5s;
+	animation-duration: 15s;
 	border: 2px dotted gray;
+	transition: all 25s;
 }
-*:hover, body:hover, div:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
-	perspective: 500px;
-	transition: all 60s;
+p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, li:hover {
+	perspective: 0px;
 	border: 2px dotted red;
-	transform: rotateX(150deg);
+	transition: all 5s;
+	transform: rotate(3840deg);
+	font-size: 150%;
 }
-*:hover, body:active, div:active, p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
-	perspective: 500px;
-	transition: all 60s;
-	transform: rotateX(480deg);
-	border: 10px solid lime;
+p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active, li:active {
+	font-size: 180%;
+	perspective: 0px;
+	border: 2px solid lime;
+	transition: all 5s;
+	transform: rotateY(45deg);
 }
 h1 {
 	text-align: center;
@@ -59,6 +61,8 @@ a:visited {
 a:hover {
 	color: yellow;
 	text-decoration: none;
+	transition: all 0.5s;
+	font-size: 300%;
 	border: solid yellow 1px;
 	padding: 1px;
 }
@@ -67,6 +71,8 @@ a:active {
 	text-decoration: none;
 	border: solid lime 1px;
 	padding: 1px;
+	transition: all 0.5s;
+	font-size: 5000%;
 }
 #nav ul {
 	list-style-type: none;
@@ -97,7 +103,7 @@ a:active {
 	color: red;
 	display: block;
 	border: 3px dashed red;
-	transition: padding 1s, font-size 1s;
+	transition: font-size 1s;
 	animation-name: shake;
 	animation-iteration-count: 1;
 	animation-duration: 3s;
@@ -118,5 +124,5 @@ a:active {
 }
 @keyframes rotate {
    from {transform: rotate(0deg);} 
-   to {transform: rotate(359deg);} 
+   to {transform: rotate(720deg);} 
 }
