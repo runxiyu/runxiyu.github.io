@@ -87,6 +87,10 @@ a:active {
 	animation-iteration-count: 1;
 	animation-duration: 3s;
 }
+#memes {
+	margin: auto;
+	columns: 255 10em;
+}
 .alarm {
 	color: red;
 }
