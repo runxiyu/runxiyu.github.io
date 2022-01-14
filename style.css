@@ -1,7 +1,6 @@
 body {
 	background-color: black;
 	color: white;
-	font-family: sans-serif;
 	margin: 3%;
 	line-height: 1.4;
 }
@@ -100,7 +99,10 @@ a:active {
 .good {
 	color: lime;
 }
-@keyframes shake { 
+.annotation {
+	border: 2px dashed lime;
+}
+@keyframes shake {
    0%, 100% {transform: rotate(0deg);} 
    10%, 30%, 50%, 70%, 90% {transform: rotate(-3deg);} 
    20%, 40%, 60%, 80% {transform: rotate(3deg);} 
