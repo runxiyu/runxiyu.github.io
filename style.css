@@ -66,24 +66,18 @@ a:active {
 	font-weight: bold;
 }
 #majornote {
-	margin: 5ex;
-	padding: 1.5em;
 	color: lime;
 	display: block;
 	border: 2px dashed lime;
 	transition: all 0.5s;
 }
 #myproject {
-	margin: 5ex;
-	padding: 1.5em;
 	color: orange;
 	display: block;
 	border: 2px dashed orange;
 	transition: padding 1s, font-size 1s;
 }
 #campaign {
-	margin: 5ex;
-	padding: 1.5em;
 	color: red;
 	display: block;
 	border: 2px dashed red;
