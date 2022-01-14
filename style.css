@@ -70,21 +70,21 @@ a:active {
 	font-weight: bold;
 }
 #majornote {
-	font-size: 120%;
+	padding: 1.5em;
 	color: lime;
 	display: block;
 	border: 3px dashed lime;
 	transition: all 0.5s;
 }
 #myproject {
-	font-size: 120%;
+	padding: 1.5em;
 	color: orange;
 	display: block;
 	border: 3px dashed orange;
 	transition: padding 1s, font-size 1s;
 }
 #campaign {
-	font-size: 120%;
+	padding: 1.5em;
 	color: red;
 	display: block;
 	border: 3px dashed red;
