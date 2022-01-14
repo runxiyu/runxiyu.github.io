@@ -76,6 +76,13 @@ a:active {
 	border: 3px dashed lime;
 	transition: all 0.5s;
 }
+#myproject {
+	font-size: 120%;
+	color: orange;
+	display: block;
+	border: 3px dashed orange;
+	transition: padding 1s, font-size 1s;
+}
 #campaign {
 	font-size: 120%;
 	color: red;
