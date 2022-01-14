@@ -66,27 +66,27 @@ a:active {
 	font-weight: bold;
 }
 #majornote {
-	margin: 2px;
+	margin: 1ex;
 	padding: 1.5em;
 	color: lime;
 	display: block;
-	border: 3px dashed lime;
+	border: 2px dashed lime;
 	transition: all 0.5s;
 }
 #myproject {
-	margin: 2px;
+	margin: 1ex;
 	padding: 1.5em;
 	color: orange;
 	display: block;
-	border: 3px dashed orange;
+	border: 2px dashed orange;
 	transition: padding 1s, font-size 1s;
 }
 #campaign {
-	margin: 2px;
+	margin: 1ex;
 	padding: 1.5em;
 	color: red;
 	display: block;
-	border: 3px dashed red;
+	border: 2px dashed red;
 	transition: padding 1s, font-size 1s;
 	animation-name: shake;
 	animation-iteration-count: 1;
