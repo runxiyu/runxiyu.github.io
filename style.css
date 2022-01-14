@@ -32,25 +32,21 @@ a:link {
 	color: cyan;
 	text-decoration: none;
 	border: solid cyan 1px;
-	padding: 1px;
 }
 a:visited {
 	color: violet;
 	text-decoration: none;
 	border: solid violet 1px;
-	padding: 1px;
 }
 a:hover {
 	color: yellow;
 	text-decoration: none;
 	border: solid yellow 1px;
-	padding: 1px;
 }
 a:active {
 	color: lime;
 	text-decoration: none;
 	border: solid lime 1px;
-	padding: 1px;
 }
 #nav ul {
 	list-style-type: none;
