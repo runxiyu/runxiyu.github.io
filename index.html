@@ -17,36 +17,46 @@
 			</ul>
 		</div>
 		<div id="main">
+			<div id="campaign">
+				<p>New Hampshire might be incorporating software freedom into its law!  This would be a huge victory for the Free Software Movement.  Please take the time to read <a href="https://www.andrewyu.org/nh.html">https://www.andrewyu.org/nh.html</a>.</p>
+				<p>It is our responsibility to spread free software and advocate for user freedom.  Please don't waste any chances to do so.</p>
+				<p>Recent activities you might want to help with:  Sign <a href="https://my.fsf.org/give-students-userfreedom">the give students user freedom petition by the FSF</a> and fight against <a href="https://www.fsf.org/bulletin/2020/spring/trial-by-proprietary-software">trial in courts with proprietary software</a>.</p>
+			</div>
 			<div id="majornote">
 				<p>I'm currently messing around with my CSS.  If you want to see a demonstration of a unusable website, come to the <a href="/lovely">test site</a>.</p>
 			</div>
-			<div id="campaign">
-				<p>New Hampshire might be incorporating software freedom into its law!  This would be a huge victory for the Free Software Movement.  Please take the time to read <a href="https://www.andrewyu.org/nh.html">https://www.andrewyu.org/nh.html</a>.</p>
-				<p>It is our responsibility to spread free software and advocate for user freedom.  Please don't waste any chances to do so.  Sign <a href="https://my.fsf.org/give-students-userfreedom">the give students user freedom petition by the FSF</a> and fight against <a href="https://www.fsf.org/bulletin/2020/spring/trial-by-proprietary-software">trial in courts with proprietary software</a>.</p>
-			</div>
 			<div id="project-help">
 				<h2><span class="alert">Project Help</span></h2>
-				<p>Hello guys.  I currently need help with some of my projects.  If you can, please look in their repositories.  Any ideas would work.</p>
+				<p>I need a hand with some of my projects.  If you can, please look in their repositories.  Any ideas would work.</p>
+				<p><a href="https://git.andrewyu.org/">https://git.andrewyu.org</a> contains the git bare repositories.  <a href="https://project.andrewyu.org">https://project.andrewyu.org</a> contains the project pages.  Usually, their corresponding URLs match with each other (except for the subdomain).</p>
 				<ul>
 					<li><a href="https://project.andrewyu.org/libresociety">The Libre Society Project</a> is a campaign to spread the ideas of <a href="https://fsf.org">free software</a> to places other than software, such as the political system, economics, and society in general.</li>
-					<li><a href="https://project.andrewyu.org/librebiology">The Libre Biololgy Project</a> is a repository of ideas for the development of medicine and the treatment of patients, especially related to medical equity.  I haven't started on this one yet, but it is upcoming.</li>
+					<li><a href="https://project.andrewyu.org/freebiology">The Free Biololgy Project</a> is a repository of ideas for the development of medicine and the treatment of patients, especially related to medical equity.  I haven't started on this one yet, but it is upcoming.</li>
 				</ul>
+			</div>
+			<div id="news">
+				<h3>The Affero GNU General Public License</h3>
+				<p>I've decided to use the Affero GNU General Public License, version 3, for all of my future software projects.  (This paragraph is not a legal license file of any kind!  Please refer to the project you're looking at to see the exact licensing.)  This is because, in modern society, proprietary software companies are always abusing free software with permissive licensing.  You also can't imagine what software could be used over a network&mdash;if I were to develop a library that attempts to understand human-written essays and outputs machine-understandable braincode, there might be someone who builds that into a bloated Webapp and make a huge user-controlling business out of it.  There's also the infamous Intel Management Engine, which uses Minix, which is under the BSD license (not sure which version).</p>
+				<p>For things that I really don't see any chance of being on the radar of those people, I put them in the public domain.  This includes all of the Libre Society project, for example.</p>
+				<p>However, when I start the Free Biology project, which may be a few decades from now, I'd certainlly like making it copyleft, if possible to the extend permitted by applicable law.  I don't know licenses that are as copyleft as the GPL for practical works besides computer programs and the documentation thereof.  Creative Commons ShareAlike isn't copyleft enough.</p>
 			</div>
 			<div id="ponder">
 				<h2>Help me ponder upon these questions</h2>
-				<p>These are questions that interest me.  If I have more ideas on them, I might turn them into projects.</p>
-				<h3>Sudden idea on the Lisp-like operating system</h3>
-				<p>Emacs is an example!</p>
-				<h3>Help me choose licenses</h3>
-				<p>I am currently unable to decide what license should I choose for my programs and other works.  I used to use the GNU General Public License.  Then I realized that (1) the GPL causes compatibility problems with those who wish to use another [free] license (who do exist) and (2) the GPL restricts on what a user can do with a work.  I'm thinking of what freedom actually means&mdash;there are freedoms to do things and freedoms from being the object of some other person doing something.  Does software which you can't distribute in any form you wish count as free software?  I think so.  However, as <a href="https://unixsheikh.com/articles/the-problems-with-the-gpl.html">https://unixsheikh.com/articles/the-problems-with-the-gpl.html</a> explains, the GPL is based on coercing people into sharing, but coercion not effective in any field to make people actually share.  This is understandable.  I might start using the GPL again for my programs (might even be the AGPL).  However, you might wanna convince me (if you have good arguments on this) to use a license for my documents and books&mdash;I put them into the public domain, and I think that's okay.  Please mail me if you have any thoughts on this.  But sad examples:  Minix was permissively licensed, got abused by Intel.  The BSD stuff was permissively licensed, got abused by Apple.</p>
+				<p>These are questions that interest me.  Maybe you have ideas?</p>
+				<h3>A Lisp-like Operating System</h3>
+				<p>Anybody who has tried functional programming knows that Lisp and <a href="https://haskell.org">Haskell</a> are special and great programming languages.  Most Lispers and all Haskell programmers adhere to the functional style of programming, creating mathematically-provably-correct programs.  I love the fact that Haskell supports Monads well and that it's statically typed (having the debugger find your issues is much more comfortable than debugging mid-run, while it's true that <a href="https://ghc.haskell.org">GHC</a> has quite good debugging utilities.  On the other hand, Haskell and Common Lisp have so many pragmatics and syntax sugar.  Scheme (which I consider to be a dialect of Lisp) is much more uniform and symmetric (think of group theory) in syntax, but has bad support for lazy evaluation.</p>
+				<p>There are many modern operating systems, for example the BSDs, GNU+Linux, Plan 9, etc.  (Microsoft Windows and macOS don't count, they're nonfree.)   But security issues are discovered every year in each of them, even <a href="https://OpenBSD.org">OpenBSD</a>, which is considered the most secure operating system for general use.  A lot of this has to do with the programming language they're written in, C.</p>
+				<p>In C, you've got a heap of pointers, memory stacks, arrays, linked lists, structures, etc. that you all have to manage by yourself.  This leaves huge gaps for programmer error.  By contrast, it is possible to mathematically prove the correctness (or the lack thereof, though I only use "Possible" because of Godel Incompleteness) of a functional program.  This eases the work for programmers.</p>
+				<p>Most, if not all security issues in programs written in classical imperative programming languages are with bogus stacks, pointers, etc.  There are countless times when stack overflows are used in attacks.  By using functional languages, it just works!</p>
+				<p>There have been <a href="http://metamodular.com/Common-Lisp/lispos.html">great proposals by other people</a> on this ideea.  If you are into operating system development and programming in general, please read it, and share your thoughts with me.  If many people voice on this issue, I'll start an mailing list.</p>
 				<h3>What about a pure functional Lisp dialect, with monads and similar (Haskell) ideas?</h3>
 				<p>I love s-expressions, as they clearly represent the structure of a program, or even natural language.  They also allow for powerful macros, enabling some Lisp dialects to have continuations and other cool stuff.  Haskell, on the other hand, is purely functional, where things that involve side effects are usually implemented with Monads.  I'm looking for an implementation that combines these.</p>
 				<h3>What about a mathematical political system?</h3>
-				<p>A government too strong causes authoritarianism which may lead to non-democracies, while a government too weak causes the inability of the government to do anything with the slightest controversy (look at COVID handling).  Is there a mathematical way (say a function; this sounds like group theory, but I'm not sure) to compute, based all known information known about the bill/order/whatever being considered, if the government (I'm especially talking about the executive here) has the right to order that? I feel like this could be proved impossible due to incompleteness and unpredictability, but this needs further investigation.</p>
+				<p>A government too strong causes authoritarianism which may lead to non-democracies, while a government too weak causes the inability of the government to do anything with the slightest controversy (look at COVID handling).  Is there a mathematical way (say a function; this sounds like group theory, but I'm not sure) to compute, based all known information known about the bill/order/whatever being considered, if the government (I'm especially talking about the executive here) has the right to order that? I feel like this could be proved impossible due to incompleteness and unpredictability, but this needs further investigation.  This is the main problem in question of the Libre Society project, by the way.</p>
 			</div>
 			<div id="me">
 				<h2>About me</h2>
-				<p>I am Andrew Yu, a secondary school student in Shanghai, China.  My main fields of interest are philosophy (especially moral philosophy, and especially especially moral philosophy in technology), metamathematics, programming fundamentals and molecular biology. (To be extended)</p>
+				<p>I am Andrew Yu, a secondary school student in Shanghai, China.  My main fields of interest are philosophy (especially moral philosophy, and especially especially moral philosophy in technology), metamathematics, programming fundamentals and molecular biology.  I'm also a free software activist.</p>
 			</div>
 			<div id="contact">
 				<h2>Contact</h2>
@@ -55,17 +65,17 @@
 					<li>radio me at guard frequency (not recommended)</li>
 					<li>talk to me in real life</li>
 					<li>mail <a href="mailto:andrew@andrewyu.org">andrew@andrewyu.org</a></li>
-					<li>irc <a href="irc://irc.libera.chat:6697/AndrewYu">Andrew on Libera</a></li>
-					<li>irc <a href="irc://irc.libera.chat:6697/AndrewYu">Andrew on AndrewIRC</a></li>
+					<li>irc <a href="irc://irc.andrewyu.org:6697/Andrew">Andrew on AndrewIRC</a></li>
+					<li>irc <a href="irc://irc.libera.chat:6697/Andrew">Andrew on Libera</a></li>
 				</ul>
-				<p>My OpenPGP fingerprint is <code>58BD 7981 2187 1B71 870C 27D9 978B 5891 AD3F 5986</code>.  My public key is available at <a href="https://www.andrewyu.org/andrew.asc">https://www.andrewyu.org/andrew.asc</a>.</p>
+				<p>My OpenPGP fingerprint is <code>58BD 7981 2187 1B71 870C 27D9 978B 5891 AD3F 5986</code>.  My public key is available at <a href="https://www.andrewyu.org/andrew.asc">https://www.andrewyu.org/andrew.asc</a>.  My key is on <a href="https://keys.openpgp.org">https://keys.openpgp.org</a>, but I don't trust key servers, you should just grab my key from my website.  Please don't send binary data to my IRC.</p>
 				<p>Contact me if you would like to sell an old ThinkPad x200 in good shape.</p>
-				<p>Caution: This server is quite new, and it seems to be in some dnsbl lists.  I'll try to get to you by other means if my email gets blocked.  Seems to be an issue with my reverse DNS, which I recently fixed.  We'll see.  Writing to me won't be affected though.</p>
 			</div>
 			<div id="randlinks">
 				<h2>Random Links</h2>
 				<ul>
 					<li><a href="https://fsf.org">The Free Software Foundation</a>.</li>
+					<li><a href="https://stallmansupport.org">Defend Richard Stallman</a>.</li>
 				</ul>
 			</div>
 		</div>
