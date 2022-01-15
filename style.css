@@ -24,6 +24,7 @@ h1 {
 }
 #footer {
 	line-height: 1.2;
+	font-family: monospace;
 	font-size: 80%;
 }
 a:link {
