@@ -17,7 +17,10 @@ h1 {
 }
 #main {
 	margin: auto;
-	columns: 1 70em;
+}
+#main div {
+	margin: auto;
+	max-width: 50em;
 }
 #footer {
 	line-height: 1.2;
