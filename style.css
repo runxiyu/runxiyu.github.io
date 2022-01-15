@@ -3,6 +3,7 @@ body {
 	color: white;
 	margin: 3%;
 	line-height: 1.4;
+	text-align: justify;
 }
 body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
 	padding: 2px;
