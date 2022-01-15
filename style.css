@@ -6,9 +6,8 @@ body {
 	text-align: justify;
 	font-family: serif;
 }
-body, div, p, h1, h2, h3, h4, h5, h6, ul, ol {
+div, p, h1, h2, h3, h4, h5, h6, ul, ol {
 	padding: 2px;
-	margin: 2px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: sans-serif;
@@ -18,11 +17,7 @@ h1 {
 }
 #main {
 	margin: auto;
-	columns: 6 70em;
-}
-#main div {
-	border: solid 2px cyan;	
-	margin: auto;
+	columns: 1 70em;
 }
 #footer {
 	line-height: 1.2;
@@ -31,18 +26,22 @@ h1 {
 a:link {
 	color: cyan;
 	text-decoration: none;
+	font-style: italic;
 }
 a:visited {
 	color: violet;
 	text-decoration: none;
+	font-style: italic;
 }
 a:hover {
 	color: yellow;
 	text-decoration: none;
+	font-style: italic;
 }
 a:active {
 	color: lime;
 	text-decoration: none;
+	font-style: italic;
 }
 #nav ul {
 	list-style-type: none;
@@ -54,6 +53,7 @@ a:active {
 	/*************************************/
 }
 #nav ul li {
+	font-family: sans-serif;
 	display: inline;
 	padding: 0 1.5em;
 	border: none;
