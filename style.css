@@ -2,7 +2,7 @@ body {
 	background-color: black;
 	color: white;
 	margin: 3%;
-	line-height: 1.4;
+	line-height: 1.25;
 	text-align: justify;
 }
 body, div, p, h1, h2, h3, h4, h5, h6, ul, ol{
@@ -32,22 +32,18 @@ h1 {
 a:link {
 	color: cyan;
 	text-decoration: none;
-	border: solid cyan 1px;
 }
 a:visited {
 	color: violet;
 	text-decoration: none;
-	border: solid violet 1px;
 }
 a:hover {
 	color: yellow;
 	text-decoration: none;
-	border: solid yellow 1px;
 }
 a:active {
 	color: lime;
 	text-decoration: none;
-	border: solid lime 1px;
 }
 #nav ul {
 	list-style-type: none;
