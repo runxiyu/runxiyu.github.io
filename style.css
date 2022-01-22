@@ -1,60 +1,7 @@
-body {
-	background-color: black;
-	color: white;
-	margin: 3%;
-	line-height: 1.25;
-	text-align: justify;
-	font-family: serif;
-}
-div, p, h1, h2, h3, h4, h5, h6, ul, ol {
-	padding: 2px;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: sans-serif;
-}
-h1 {
-	text-align: center;
-}
-#main {
-	margin: auto;
-}
-#main div {
-	margin: auto;
-	max-width: 50em;
-}
-#footer {
-	line-height: 1.2;
-	font-family: monospace;
-	font-size: 80%;
-}
-a:link {
-	color: cyan;
-	text-decoration: none;
-	font-style: italic;
-}
-a:visited {
-	color: violet;
-	text-decoration: none;
-	font-style: italic;
-}
-a:hover {
-	color: yellow;
-	text-decoration: none;
-	font-style: italic;
-}
-a:active {
-	color: lime;
-	text-decoration: none;
-	font-style: italic;
-}
 #nav ul {
 	list-style-type: none;
 	padding: 1em 0;
 	text-align: center;
-	/*************************************/
-	/* border-top: 2px solid black;		 */
-	/* border-bottom: 2px solid back;	 */
-	/*************************************/
 }
 #nav ul li {
 	font-family: sans-serif;
@@ -66,7 +13,7 @@ a:active {
 	font-weight: bold;
 }
 #majornote {
-	color: lime;
+	color: green;
 	display: block;
 	border: 2px dashed lime;
 	transition: all 0.5s;
@@ -86,10 +33,6 @@ a:active {
 	animation-iteration-count: 1;
 	animation-duration: 3s;
 }
-#memes {
-	margin: auto;
-	/* columns: 255 10em; */
-}
 .alarm {
 	color: red;
 }
@@ -98,9 +41,6 @@ a:active {
 }
 .good {
 	color: lime;
-}
-.annotation {
-	border: 2px dashed lime;
 }
 @keyframes shake {
    0%, 100% {transform: rotate(0deg);} 
