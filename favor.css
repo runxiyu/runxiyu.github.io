@@ -88,7 +88,7 @@ a:active {
 	text-align: center;
 	/* columns: 255 10em; */
 }
-#randlinks {
+#randlinks ul {
 	columns: 2 20em;
 }
 .alarm {
