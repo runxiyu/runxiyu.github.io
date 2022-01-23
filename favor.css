@@ -103,6 +103,12 @@ a:active {
 .annotation {
 	border: 2px dashed lime;
 }
+em {
+	color: orange;
+}
+strong {
+	color: red;
+}
 @keyframes shake {
    0%, 100% {transform: rotate(0deg);} 
    10%, 30%, 50%, 70%, 90% {transform: rotate(-3deg);} 
