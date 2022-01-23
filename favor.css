@@ -85,6 +85,7 @@ a:active {
 }
 #memes {
 	margin: auto;
+	text-align: center;
 	/* columns: 255 10em; */
 }
 .alarm {
