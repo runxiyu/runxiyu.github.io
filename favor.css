@@ -44,14 +44,11 @@ a:active {
 	text-decoration: none;
 	font-style: italic;
 }
+/*
 #nav ul {
 	list-style-type: none;
 	padding: 1em 0;
 	text-align: center;
-	/*************************************/
-	/* border-top: 2px solid black;		 */
-	/* border-bottom: 2px solid back;	 */
-	/*************************************/
 }
 #nav ul li {
 	font-family: sans-serif;
@@ -62,6 +59,7 @@ a:active {
 #nav ul li a {
 	font-weight: bold;
 }
+*/
 #majornote {
 	color: lime;
 	display: block;
