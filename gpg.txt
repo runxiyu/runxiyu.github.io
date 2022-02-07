@@ -1,0 +1,31 @@
+Recently, thanks to labrador, I understand that I'm using the wrong
+command (tsign) to sign keys.  I should be using `sign' instead.
+At the early stage where I misunderstood the trust levels, I've given a
+high trust level (3) to people, giving them the ability to sign keys on
+my behalf, which was unintended.
+
+I revoked all the keys, then found that I could not trust them again.
+At this point I consider my GPG identity to be broken.  I'll publish a
+new key on my website soon.
+
+The new key is located at https://www.andrewyu.org/andrew.asc.  It has
+the key ID C906A7F774D14C5CCF89090E01500B118A378124.
+
+If you trust me, you should trust and then sign this key.  Don't tsign
+it, that's not a combination of trust and sign, don't nrsign it, don't
+do anything out of the ordinary.  Read the manual if you have any
+concerns.
+
+Please import https://www.andrewyu.org/revocation.rev.  That is the
+revocation certificate for my first key.  Please, spread this around.
+The revoked key is at https://www.andrewyu.org/revoked_key.asc. The key
+ID is 58BD798121871B71870C27D9978B5891AD3F5986.
+
+I've resigned my recent contacts.  My keyring is at
+https://www.andrewyu.org/allkeys.asc.
+
+The moral of the lesson is, be sure to read the manuals and
+documentation especially when you're dealing with trust, validity, and
+anything important in general.  Don't make the same mistake as me.
+
+Good luck.
