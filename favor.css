@@ -92,6 +92,9 @@ a:active {
 .alarm {
 	color: red;
 }
+.alarm p {
+	color: red;
+}
 .alert {
 	color: orange;
 }
