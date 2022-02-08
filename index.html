@@ -11,7 +11,7 @@
 		<div id="nav">
 			<h2>Navigate around</h2>
 			<ul>
-				<li class="alarm">I've been up to some <a href="/gpg.txt">GPG Issues</a> with trust signatures.  Key revocation is involved.  Please visit the page.</li>
+				<li class="alarm" style="font-size: 150%; ">I've been up to some GPG Issues with trust signatures.  Key revocation is involved.  See below.</li>
 				<li><a href="https://www.andrewyu.org">Personal site</a></li>
 				<!--li><a href="https://blog.andrewyu.org">Blog (WIP)</a></li-->
 				<li><a href="https://project.andrewyu.org" class="alert">Projects</a></li>
@@ -23,6 +23,58 @@
 				<li><a href="https://host.andrewyu.org" class="alert">Server guides</a></li>
 			</ul>
 		</div>
+			<div id="alarm">
+			<p>
+			Recently, thanks to labrador, I understand that I'm using the wrong
+			command (tsign) to sign keys.  I should be using `sign' instead.
+			At the early stage where I misunderstood the trust levels, I've given a
+			high trust level (3) to people, giving them the ability to sign keys on
+			my behalf, which was unintended.
+			</p>
+
+			<p>
+			I revoked all the keys, then found that I could not trust them again.
+			At this point I consider my GPG identity to be broken.  I'll publish a
+			new key on my website soon.
+			</p>
+
+			<p>
+			The new key is located at
+			<a href="https://www.andrewyu.org/andrew.asc">https://www.andrewyu.org/andrew.asc</a>.
+			It has the key ID <code>C906A7F774D14C5CCF89090E01500B118A378124</code>.
+			</p>
+
+			<p>
+			If you trust me, you should trust and then sign this key.  Don't tsign
+			it, that's not a combination of trust and sign, don't nrsign it, don't
+			do anything out of the ordinary.  Read the manual if you have any
+			concerns.
+			</p>
+
+			<p>
+			Please import
+			<a href="https://www.andrewyu.org/revocation.rev">https://www.andrewyu.org/revocation.rev</a>.
+			That is the revocation certificate for my first key.  Please, spread
+			this around.  The revoked key is at
+			<a href="https://www.andrewyu.org/revoked_key.asc">https://www.andrewyu.org/revoked_key.asc</a>.
+			The key ID is <code>58BD798121871B71870C27D9978B5891AD3F5986</code>.
+			</p>
+
+			<p>
+			I've resigned my recent contacts.  My keyring is at
+			<a href="https://www.andrewyu.org/allkeys.asc">https://www.andrewyu.org/allkeys.asc</a>.
+			</p>
+
+			<p>
+			The moral of the lesson is, be sure to read the manuals and
+			documentation especially when you're dealing with trust, validity, and
+			anything important in general.  Don't make the same mistake as me.
+			</p>
+
+			<p>
+			Good luck.
+			</p>
+			</div>
 			<div id="campaign">
 				<p>New Hampshire might be incorporating software freedom into its law!  This would be a huge victory for the Free Software Movement.  Please take the time to read <a href="https://www.andrewyu.org/nh.html">https://www.andrewyu.org/nh.html</a> (WIP).</p>
 				<p>It is our responsibility to spread <a href="https://fsf.org">free software</a>, <a href="https://fcm.andrewyu.org">free computing (one of the websites started by me :D)</a> and advocate for user freedom.  Please don't waste any chances to do so.</p>
@@ -81,7 +133,7 @@
 					<li><a href="https://www.fsf.org/fb"><img src="https://static.fsf.org/nosvn/not-fd.svg" height="26pt" alt="not f'd&mdash;you won't find me on Facebook" /></a>.</li>
 				</ul>
 				<p>My OpenPGP fingerprint is <code>C906A7F774D14C5CCF89090E01500B118A378124</code>.  My public key is available at <a href="https://www.andrewyu.org/andrew.asc">https://www.andrewyu.org/andrew.asc</a>.  My key is on <a href="https://keys.openpgp.org">https://keys.openpgp.org</a>, but I don't trust key servers, you should just grab my key from my website.  Please don't send binary data to my IRC.</p>
-				<p class="alarm">There have been recent issues with my gpg.  <a href="/gpg.txt">Visit the page dedicated to this.</a></p>
+				<p class="alarm">There have been recent issues with my gpg.  See the notice above.</p>
 				<p>Contact me if you would like to sell an ThinkPad x200, x220 or x230 in good shape.</p>
 			</div>
 			<div id="randlinks">
