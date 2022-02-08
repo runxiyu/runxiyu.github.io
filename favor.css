@@ -60,6 +60,12 @@ a:active {
 	font-weight: bold;
 }
 */
+#critical {
+	color: red;
+	display: block;
+	border: 2px solid red;
+	transition: padding 1s, font-size 1s;
+}
 #majornote {
 	color: lime;
 	display: block;
