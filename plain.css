@@ -1,49 +1,5 @@
-#nav ul {
-	list-style-type: none;
-	padding: 1em 0;
-	text-align: center;
-}
-#nav ul li {
+body {
+	width: 40em;
+	margin: auto;
 	font-family: sans-serif;
-	display: inline;
-	padding: 0 1.5em;
-	border: none;
-}
-#nav ul li a {
-	font-weight: bold;
-}
-#majornote {
-	color: green;
-	display: block;
-	border: 2px dashed lime;
-	transition: all 0.5s;
-}
-#myproject {
-	color: orange;
-	display: block;
-	border: 2px dashed orange;
-	transition: padding 1s, font-size 1s;
-}
-#campaign {
-	color: red;
-	display: block;
-	border: 2px dashed red;
-	transition: padding 1s, font-size 1s;
-	animation-name: shake;
-	animation-iteration-count: 1;
-	animation-duration: 3s;
-}
-.alarm {
-	color: red;
-}
-.alert {
-	color: orange;
-}
-.good {
-	color: lime;
-}
-@keyframes shake {
-   0%, 100% {transform: rotate(0deg);} 
-   10%, 30%, 50%, 70%, 90% {transform: rotate(-3deg);} 
-   20%, 40%, 60%, 80% {transform: rotate(3deg);} 
 }
