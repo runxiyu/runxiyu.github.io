@@ -26,10 +26,9 @@ Status of This Memo
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   1
-   2.  Existing Free Replacements  . . . . . . . . . . . . . . . . .   2
-   3.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   2
-   4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   2
-   5.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   3
+   3.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   3
+   4.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   3
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   3
    Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   3
@@ -53,6 +52,7 @@ Table of Contents
 
 
 
+
 Yu                            Informational                     [Page 1]
 
                     Pragmatic Use of Nonfree Software         April 2022
@@ -71,8 +71,6 @@ Yu                            Informational                     [Page 1]
 
    Two users is definitely few, but it sets a start and an example for
    how freedom can be spread.
-
-2.  Existing Free Replacements
 
    There are numerous free replacements to proprietary services such as
    Discord, such as Internet Relay Chat, the Extensible Messaging and
@@ -95,15 +93,17 @@ Yu                            Informational                     [Page 1]
    the USERS command, and considering the fact that around 90% of these
    people aren't ignorant, there isn't much we can do.
 
-3.  Technical Limitations
+   Matrix users, in particular users of the matrix.org homeserver,
+   typically know but don't completely understand Free Software.  Rather
+   than using Matrix IDs to identify users, the Matrix specification
+   specifies that third-party platform identities, such as email and
+   GitHub, are how users should be referenced both internally by servers
+   and shown to other users.  This is obviously an increadibly foolish
+   isea, especially considering the use of centralized identity servers
+   (similar to X509 certificate authorities) for 3PIDs.  These are our
+   first targets, but these should also be easy to get the idea across.
 
-4.  Conclusion
 
-   Hi
-
-5.  FSF Considerations
-
-   Hi
 
 
 
@@ -113,6 +113,18 @@ Yu                            Informational                     [Page 2]
 
                     Pragmatic Use of Nonfree Software         April 2022
 
+
+2.  Technical Limitations
+
+   git://git.andrewyu.org/internet-delay-chat
+
+3.  Conclusion
+
+   Hi
+
+4.  FSF Considerations
+
+   Hi
 
 Acknowledgements
 
@@ -130,18 +142,6 @@ Author's Address
    The Second School Affiliated to Fudan University
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -46,17 +46,18 @@ One of the communities that he knows about, the VF-Technic Minetest community, p
 
 Two users is definitely few, but it sets a start and an example for how freedom can be spread.
 
-# Existing Free Replacements
-
 There are numerous free replacements to proprietary services such as Discord, such as Internet Relay Chat, the Extensible Messaging and Presense Protocol, the Matrix protocol, and email.  As Free Software activists, we generally prefer these protocols over nonfree services.  This section explains the reasons to consider nonfree services and protocols.
 
 Generally, users on IRC and XMPP have a fair understanding of the Free Software Movement, and it is quick and easy to inform them what we mean by "free", "the four freedoms", and similar ideas.  For users on the Libera Chat IRC network, which by far has the most users of any network, it is exceptionally easy to introduce a user into the #fsf channel for discussions with people supporting Free Software.  Introducing ignorant users on these protocols and platforms are a day-to-day simple task.
 
 Furthermore, the amount of users we can reach on these protocols are rather limiting.  Libera has around forty thousand users according to the `USERS` command, and considering the fact that around 90% of these people aren't ignorant, there isn't much we can do.
 
+Matrix users, in particular users of the matrix.org homeserver, typically know but don't completely understand Free Software.  Rather than using Matrix IDs to identify users, the Matrix specification specifies that third-party platform identities, such as email and GitHub, are how users should be referenced both internally by servers and shown to other users.  This is obviously an increadibly foolish isea, especially considering the use of centralized identity servers (similar to X509 certificate authorities) for 3PIDs.  These are our first targets, but these should also be easy to get the idea across.
 
 
 # Technical Limitations
+
+git://git.andrewyu.org/internet-delay-chat
 
 # Conclusion
 
