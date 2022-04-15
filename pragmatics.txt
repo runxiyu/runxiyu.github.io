@@ -12,20 +12,51 @@ Free Software Community                                        A. Yu. Yu
 
 Abstract
 
-   Abstract
+   Free Software is undoubtably a good thing for society.  However,
+   modern computer users are stuck in the proprietary "ecosystem" for
+   historical reasons.  This document describes the author's viewpoint
+   of using proprietary platforms to spread the ideas of Free Software.
+
+Status of This Memo
+
+   This document describes the author's viewpoint.  This does not
+   represent the ideas of the Free Software Foundation or any other
+   entity.  Distribution of this memo is unlimited.
 
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   1
-   2.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   1
-   3.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   1
-   Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   1
-   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   1
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   1
+   2.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   2
+   3.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   2
+   Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   2
 
 1.  Introduction
 
-   Hi
+   Readers of this memo probably understand the ideals of the Free
+   Software Movement, and avoid proprietary software when possible.
+   However, as most outsiders are unaware and are deeply buried inside
+   the proprietary dystopia created by mostly multibillion-dollar
+   technology coorporations, our methods of communicating with the
+   masses are ineffective.
+
+   In February 2022, the author decided to adjust his dogma, and
+   permitted limited usage of nonfree chat platforms to hopefully spread
+   our ideas to the general public.  This was attempted by registering a
+   Discord account, creating a Guild called "Free Software
+   Introductions", and setting up a basic Discord-to-IRC relay to #fsi
+   on both irc.andrewyu.org and irc.libera.chat.
+
+
+
+
+
+
+Yu                            Informational                     [Page 1]
+
+                    Pragmatic Use of Nonfree Software         April 2022
+
 
 2.  Conclusion
 
@@ -50,38 +81,7 @@ Author's Address
    Andrew Yu
    The Second School Affiliated to Fudan University
    Email: andrew@andrewyu.org
-
-
-
-Yu                            Informational                     [Page 1]
-
-                    Pragmatic Use of Nonfree Software         April 2022
-
-
    URI:   https://www.andrewyu.org/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -14,15 +14,20 @@
 <keyword>Pragmatics</keyword>
 
 <abstract>
-<t>Abstract</t>
+<t>Free Software is undoubtably a good thing for society.  However, modern computer users are stuck in the proprietary &quot;ecosystem&quot; for historical reasons.  This document describes the author's viewpoint of using proprietary platforms to spread the ideas of Free Software.</t>
 </abstract>
+
+<note><name>Status of This Memo</name>
+<t>This document describes the author's viewpoint.  This does not represent the ideas of the Free Software Foundation or any other entity.  Distribution of this memo is unlimited.</t>
+</note>
 
 </front>
 
 <middle>
 
 <section anchor="introduction"><name>Introduction</name>
-<t>Hi</t>
+<t>Readers of this memo probably understand the ideals of the Free Software Movement, and avoid proprietary software when possible.  However, as most outsiders are unaware and are deeply buried inside the proprietary dystopia created by mostly multibillion-dollar technology coorporations, our methods of communicating with the masses are ineffective.</t>
+<t>In February 2022, the author decided to adjust his dogma, and permitted limited usage of nonfree chat platforms to hopefully spread our ideas to the general public.  This was attempted by registering a Discord account, creating a Guild called &quot;Free Software Introductions&quot;, and setting up a basic Discord-to-IRC relay to #fsi on both irc.andrewyu.org and irc.libera.chat.</t>
 </section>
 
 <section anchor="conclusion"><name>Conclusion</name>
