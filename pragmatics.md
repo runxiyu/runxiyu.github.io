@@ -11,7 +11,7 @@ keyword = ["Nonfree", "Pragmatics"]
 
 [seriesInfo]
 name = "Internet-Draft"
-value = "pragmatic-use-of-nonfree-software"
+value = "Request for Discussions 1"
 stream = "independent"
 status = "informational"
 
