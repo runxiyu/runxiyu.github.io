@@ -172,7 +172,7 @@ Yu                            Informational                     [Page 3]
 
 3.  Action Procedure
 
-   Activists *SOULD NOT* list such nonfree services in "Contact
+   Activists MUST NOT list such nonfree services in "Contact
    Information" pages on their website or similar sources, unless
    followed by a explanation that the purpose of the nonfree platform is
    to introduce users thereof onto free protocols and to eventually
