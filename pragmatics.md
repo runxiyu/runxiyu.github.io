@@ -88,7 +88,7 @@ Many thanks to everyone in the Free Software community for the freedom we have t
       <author>
          <organization>The GNU Project</organization>
       </author>
-      <date year="2013" month="December"></date>
+      <date year="2013" month="September"></date>
    </front>
 </reference>
 

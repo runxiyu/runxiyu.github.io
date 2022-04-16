@@ -136,7 +136,7 @@ Yu                            Informational                     [Page 2]
 6.  Normative References
 
    [RMSGP]    The GNU Project, "Is It Ever a Good Thing to Use a Nonfree
-              Program?", December 2013, <http://www.gnu.org/philosophy/
+              Program?", September 2013, <http://www.gnu.org/philosophy/
               is-ever-good-use-nonfree-program.en.html>.
 
 Acknowledgements
