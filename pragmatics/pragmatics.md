@@ -1,5 +1,5 @@
 %%%
-title = "Pragmatic Use of Nonfree Software"
+title = "Pragmatic Use of Nonfree Software 7"
 abbrev = "Pragmatic Use of Nonfree Software"
 area = "Free Software"
 workgroup = "Free Software Community"
