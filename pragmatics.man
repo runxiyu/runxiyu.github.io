@@ -1,0 +1,213 @@
+PRAGMATIC USE OF NONFREE SOFTFWrAeReE(S1o)ftware CPoRmAmGuMnAiTtIyC USE OF NONFREE SOFTWARE(1)
+
+
+
+AABBSSTTRRAACCTT
+       Free Software is undoubtably a good thing for society.  However, modern
+       computer users are stuck in the proprietary "ecosystem" for  historical
+       reasons.   This document describes the author's viewpoint of using pro-
+       prietary platforms to spread the ideas of Free Software.
+
+
+SSTTAATTUUSS OOFF TTHHIISS MMEEMMOO
+       This document is currently in the DRAFT status.
+
+
+       This document describes the author's viewpoint.  This does  not  repre-
+       sent  the  ideas  of  the Free Software Foundation or any other entity.
+       Distribution of this memo is unlimited.
+
+
+IINNTTRROODDUUCCTTIIOONN
+       Readers of this memo probably understand the ideals of the  Free  Soft-
+       ware  Movement, and avoid proprietary software when possible.  However,
+       as most outsiders are unaware and are deeply buried inside the  propri-
+       etary dystopia created by mostly multibillion-dollar technology coorpo-
+       rations, our methods of communicating with the masses are ineffective.
+
+
+       In February 2022, the author decided to adjust his dogma, and permitted
+       limited  usage  of nonfree chat platforms to hopefully spread our ideas
+       to the general public.  This was attempted by registering a Discord ac-
+       count,  creating a Guild called "Free Software Introductions", and set-
+       ting up a basic Discord-to-IRC relay to #fsi on  both  irc.andrewyu.org
+       and irc.libera.chat.
+
+
+       One  of  the  communities  that he knows about, the VF-Technic Minetest
+       community, primarily uses Discord as a means of communication by  plays
+       not in-game.  As the users inside are Minetest players, a Free Software
+       voxel sandbox game, similar to but much more flexible  and  freedom-re-
+       specting  than  Minecraft, it is believed that the users have some con-
+       tact with Free Software, although they might not understand the freedom
+       part  of  the  issue,  i.e.  they  might  be thinking in terms of "open
+       source" instead.  After sharing  the  invite  link  in  the  VF-Technic
+       Guild, some people joined, and we've partially converted two users.
+
+
+JJUUSSTTIIFFIICCAATTIIOONN
+       Two users is definitely few, but it sets a start and an example for how
+       freedom can be spread.
+
+
+       There are numerous free replacements to proprietary  services  such  as
+       Discord, such as Internet Relay Chat, the Extensible Messaging and Pre-
+       sense Protocol, the Matrix protocol, and email.  As Free  Software  ac-
+       tivists,  we  generally  prefer  these protocols over nonfree services.
+       This section explains the reasons to consider nonfree services and pro-
+       tocols.
+
+
+       Generally,  users on IRC and XMPP have a fair understanding of the Free
+       Software Movement, and it is quick and easy to inform them what we mean
+       by  "free",  "the  four freedoms", and similar ideas.  For users on the
+       Libera Chat IRC network, which by far has the most users  of  any  net-
+       work,  it is exceptionally easy to introduce a user into the #fsf chan-
+       nel for discussions with people supporting Free Software.   Introducing
+       ignorant users on these protocols and platforms are a day-to-day simple
+       task.
+
+
+       Furthermore, the amount of users we can reach on  these  protocols  are
+       rather  limiting.   Libera has around forty thousand users according to
+       the UUSSEERRSS command, and considering the fact that around  90%  of  these
+       people aren't ignorant, there isn't much we can do.
+
+
+       Matrix  users,  in particular users of the matrix.org homeserver, typi-
+       cally know but don't completely understand Free Software.  Rather  than
+       using  Matrix IDs to identify users, the Matrix specification specifies
+       that third-party platform identities, such as email and GitHub, are how
+       users  should  be  referenced  both  internally by servers and shown to
+       other users.  This is obviously an increadibly foolish idea, especially
+       considering  the  use  of centralized identity servers (similar to X509
+       certificate authorities) for 3PIDs.  These are our first  targets,  but
+       these should also be easy to get the idea across.
+
+
+       It is true that Libera Chat and similar IRC networks, though multi-cen-
+       tered in a technical way (i.e. multiple IRC servers form  an  IRC  net-
+       work),  the  network  is politically centralized, controlled by one en-
+       tity, Libera.  The Internet Relay Chat  server-to-server  protocol  im-
+       plies  that servers fully trust each other and are expected to not send
+       damaging commands, which in turn implies full trust between server  op-
+       erators, no federation, and political centralization.  The privacy pol-
+       icy and network policy of Libera Chat are in the author's opinion  non-
+       intrusive,  therefore the use of which is acceptable and is promoted by
+       the FSF.  (Obviously, most methods of using IRC do not involve  nonfree
+       software.)
+
+
+       Nevertheless,  those that have never touched Free Software are often on
+       giant proprietary platforms, and take these  as  universal  methods  of
+       communication.   Many  people  go  months before checking their mailbox
+       (physical or electronic), refuse to use XMPP or IRC for its age.
+
+
+       An alternative protocol, Internet Delay Chat, is being developed.
+
+
+       There is one special case where using some nonfree software,  and  even
+       urging  others  to use it, can be a positive thing. That's when the use
+       of the nonfree software aims directly at putting an end to the  use  of
+       that  very  same nonfree software.[RMSGP]  The author believes that the
+       following fall within this scope:
+
+
+       +o   Developing a free program that  requires  nonfree  environments  to
+           bootstrap;
+
+       +o   To  spread awareness of software freedom issues to users in nonfree
+           environments.
+
+
+
+       As almost all types of programming can be done on most types of BSD and
+       GNU  operating  systems,  the author hasn't found any software that fit
+       this category.  Extending the interpretation allos  for  using  nonfree
+       software's behavior as a reference in Free Software development, though
+       an arguable programming practice, may help the community to progress by
+       understanding common features that users of nonfree services use.
+
+
+       The  latter  is  more  interesting,  as  explained above our methods of
+       spreading awareness is limited.
+
+
+AACCTTIIOONN PPRROOCCEEDDUURREE
+       Activists MMUUSSTT NNOOTT list such nonfree services in "Contact  Information"
+       pages  on their website or similar sources, unless followed by a expla-
+       nation that the purpose of the nonfree platform is to  introduce  users
+       thereof  onto  free protocols and to eventually exterminate the nonfree
+       platform.  Whenever these references to nonfree platforms  appear,  the
+       author  MMUUSSTT  present  free methods of communication.  Activists SSHHOOUULLDD
+       pragmatically use as many of the popular free protocols as possible, to
+       ensure  that oppurtunities of introductions are not lost.  In cases in-
+       volving competition between free and nonfree protocols  and  platforms,
+       ethical  concerns  (i.e.  enabling talking to a new user on any ethical
+       platform) MMUUSSTT take precedence over technical concerns (such as dislik-
+       ing the XMPP protocol for its inefficent use of XML) whenever possible.
+
+
+       Communities for introducing users to Free Software on nonfree platforms
+       MMUUSSTT be bridged to a free protocol in some obvious  way,  in  order  to
+       minimize  the usage of nonfree platforms even for the purpose of commu-
+       nicating ideology to new users and allow members of the  Free  Software
+       community  refusing to use nonfree platforms in any way to participate.
+       Usages of nonfree platforms,  besides  part  of  the  user-introduction
+       process that must happen on the nonfree platform, SSHHOOUULLDD be avoided.
+
+
+       For  example,  the  author created a Discord Guild called Free Software
+       Introductions, which is one-way-puppeted to #fsi  on  irc.andrewyu.org,
+       which  is then one-way-puppeted to Libera.  The relay system is sort-of
+       messed up, but it's working.  Inviting new users to it via https://dis-
+       cord.gg/7CYp7ntww7  <https://discord.gg/7CYp7ntww7> is good, but as the
+       author has made his own sacrifice already, there  exists  no  need  for
+       other  existing  Free  Software activists to join and use it instead of
+       IRC.
+
+
+TTEECCHHNNIICCAALL LLIIMMIITTAATTIIOONNSS
+       The old and centralized nature of IRC, the insane  3PID  recommendation
+       of Matrix, the bad routing and efficency of XMPP, and the lack of docu-
+       mentation on PSYC, has led us to develop a new protocol, Internet Delay
+       Chat,  which  aims  to be free, modern (i.e. support for channel groups
+       and shared permission sets, non-text data with MIME types), sane  (i.e.
+       TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
+
+
+CCOONNCCLLUUSSIIOONN
+       Hi
+
+
+FFSSFF CCOONNSSIIDDEERRAATTIIOONNSS
+       Hi
+
+
+BBIIBBLLIIOOGGRRAAPPHHYY
+       [RMSGP]
+              The  GNU  Project  Is It Ever a Good Thing to Use a Nonfree Pro-
+              gram?   <http://www.gnu.org/philosophy/is-ever-good-use-nonfree-
+              program.en.html>2013
+
+
+
+AACCKKNNOOWWLLEEDDGGEEMMEENNTTSS  <<!!----7777uuuuMMaannyy tthhaannkkss ttoo iiSShhaarreeFFrreeeeddoomm,, qqrrppnnxxzz,, DDiiffffiieeHHeellllmmaann,,
+       LLeeaahh RRoowwee aanndd mmaannyy ootthheerrss ffoorr tthhee iiddeeaass  ((aanndd  rreebbuutttteedd  aarrgguummeennttss))  iinn
+       tthhiiss aarrttiiccllee..---->>
+CCOONNTTRRIIBBUUTTOORRSS
+       Many  thanks to everyone in the Free Software community for the freedom
+       we have today.
+
+
+       git://git.andrewyu.org/internet-delay-chat
+
+
+AAUUTTHHOORRSS
+       Written by Andrew Yu.
+
+
+
+
+Free Software                     April 202P2RAGMATIC USE OF NONFREE SOFTWARE(1)

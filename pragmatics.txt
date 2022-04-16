@@ -31,10 +31,10 @@ Table of Contents
    2.  Justification . . . . . . . . . . . . . . . . . . . . . . . .   2
    3.  Action Procedure  . . . . . . . . . . . . . . . . . . . . . .   4
    4.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   4
-   5.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   4
-   6.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   4
-   7.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
-   Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   4
+   5.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   6.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   5
+   7.  Normative References  . . . . . . . . . . . . . . . . . . . .   5
+   Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   5
    Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
@@ -158,7 +158,7 @@ Yu                            Informational                     [Page 2]
    As almost all types of programming can be done on most types of BSD
    and GNU operating systems, the author hasn't found any software that
    fit this category.  Extending the interpretation allos for using
-   nonfree software's behavior as a reference in free software
+   nonfree software's behavior as a reference in Free Software
    development, though an arguable programming practice, may help the
    community to progress by understanding common features that users of
    nonfree services use.
@@ -198,9 +198,33 @@ Yu                            Informational                     [Page 3]
    introduction process that must happen on the nonfree platform, SHOULD
    be avoided.
 
+   For example, the author created a Discord Guild called Free Software
+   Introductions, which is one-way-puppeted to #fsi on irc.andrewyu.org,
+   which is then one-way-puppeted to Libera.  The relay system is sort-
+   of messed up, but it's working.  Inviting new users to it via
+   https://discord.gg/7CYp7ntww7 (https://discord.gg/7CYp7ntww7) is
+   good, but as the author has made his own sacrifice already, there
+   exists no need for other existing Free Software activists to join and
+   use it instead of IRC.
+
 4.  Technical Limitations
 
-   git://git.andrewyu.org/internet-delay-chat
+   The old and centralized nature of IRC, the insane 3PID recommendation
+   of Matrix, the bad routing and efficency of XMPP, and the lack of
+   documentation on PSYC, has led us to develop a new protocol, Internet
+   Delay Chat, which aims to be free, modern (i.e. support for channel
+   groups and shared permission sets, non-text data with MIME types),
+   sane (i.e.  TCP, UDP and SCTP-based, instead of HTTP POST APIs) and
+   simple.
+
+
+
+
+
+Yu                            Informational                     [Page 4]
+
+                    Pragmatic Use of Nonfree Software         April 2022
+
 
 5.  Conclusion
 
@@ -218,18 +242,12 @@ Yu                            Informational                     [Page 3]
 
 Acknowledgements
 
-
-
-
-Yu                            Informational                     [Page 4]
-
-                    Pragmatic Use of Nonfree Software         April 2022
-
-
 Contributors
 
    Many thanks to everyone in the Free Software community for the
    freedom we have today.
+
+   git://git.andrewyu.org/internet-delay-chat
 
 Author's Address
 
@@ -237,24 +255,6 @@ Author's Address
    The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
