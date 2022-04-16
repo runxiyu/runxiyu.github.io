@@ -10,5 +10,5 @@ pragmatics.7: pragmatics.md
 pragmatics.txt pragmatics.html: pragmatics.xml
 	xml2rfc --text --html pragmatics.xml
 pragmatics.xml: pragmatics.md
-	mmark pragmatics.md > pragmatics.xml
+	sed '0,/title =/{s/ ."$$/"/}' pragmatics.md | mmark > pragmatics.xml
 
