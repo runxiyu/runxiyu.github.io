@@ -19,6 +19,8 @@ Abstract
 
 Status of This Memo
 
+   This document is currently in the DRAFT status.
+
    This document describes the author's viewpoint.  This does not
    represent the ideas of the Free Software Foundation or any other
    entity.  Distribution of this memo is unlimited.
@@ -45,11 +47,9 @@ Table of Contents
    technology coorporations, our methods of communicating with the
    masses are ineffective.
 
-
-
-
-
-
+   In February 2022, the author decided to adjust his dogma, and
+   permitted limited usage of nonfree chat platforms to hopefully spread
+   our ideas to the general public.  This was attempted by registering a
 
 
 
@@ -58,9 +58,6 @@ Yu                            Informational                     [Page 1]
                     Pragmatic Use of Nonfree Software         April 2022
 
 
-   In February 2022, the author decided to adjust his dogma, and
-   permitted limited usage of nonfree chat platforms to hopefully spread
-   our ideas to the general public.  This was attempted by registering a
    Discord account, creating a Guild called "Free Software
    Introductions", and setting up a basic Discord-to-IRC relay to #fsi
    on both irc.andrewyu.org and irc.libera.chat.
@@ -102,10 +99,13 @@ Yu                            Informational                     [Page 1]
    the USERS command, and considering the fact that around 90% of these
    people aren't ignorant, there isn't much we can do.
 
-   Matrix users, in particular users of the matrix.org homeserver,
-   typically know but don't completely understand Free Software.  Rather
-   than using Matrix IDs to identify users, the Matrix specification
-   specifies that third-party platform identities, such as email and
+
+
+
+
+
+
+
 
 
 
@@ -114,6 +114,10 @@ Yu                            Informational                     [Page 2]
                     Pragmatic Use of Nonfree Software         April 2022
 
 
+   Matrix users, in particular users of the matrix.org homeserver,
+   typically know but don't completely understand Free Software.  Rather
+   than using Matrix IDs to identify users, the Matrix specification
+   specifies that third-party platform identities, such as email and
    GitHub, are how users should be referenced both internally by servers
    and shown to other users.  This is obviously an increadibly foolish
    idea, especially considering the use of centralized identity servers
@@ -159,16 +163,15 @@ Yu                            Informational                     [Page 2]
    community to progress by understanding common features that users of
    nonfree services use.
 
-   The latter is more interesting, as explained above our methods of
-   spreading awareness is limited.
-
-
 
 
 Yu                            Informational                     [Page 3]
 
                     Pragmatic Use of Nonfree Software         April 2022
 
+
+   The latter is more interesting, as explained above our methods of
+   spreading awareness is limited.
 
 3.  Action Procedure
 
@@ -214,9 +217,6 @@ Yu                            Informational                     [Page 3]
               is-ever-good-use-nonfree-program.en.html>.
 
 Acknowledgements
-
-
-
 
 
 
