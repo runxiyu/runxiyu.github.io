@@ -99,7 +99,7 @@ Yu                            Informational                     [Page 1]
    specifies that third-party platform identities, such as email and
    GitHub, are how users should be referenced both internally by servers
    and shown to other users.  This is obviously an increadibly foolish
-   isea, especially considering the use of centralized identity servers
+   idea, especially considering the use of centralized identity servers
    (similar to X509 certificate authorities) for 3PIDs.  These are our
    first targets, but these should also be easy to get the idea across.
 
