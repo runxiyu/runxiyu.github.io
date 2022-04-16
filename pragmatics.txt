@@ -29,11 +29,11 @@ Table of Contents
    2.  The Plan  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    3.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   3
    4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   5.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   3
-   6.  Normative References  . . . . . . . . . . . . . . . . . . . .   3
-   Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   3
+   5.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   4
+   6.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
+   Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   4
+   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   4
 
 1.  Introduction
 
@@ -103,9 +103,9 @@ Yu                            Informational                     [Page 1]
    (similar to X509 certificate authorities) for 3PIDs.  These are our
    first targets, but these should also be easy to get the idea across.
 
-
-
-
+   It is true that Libera Chat and similar IRC networks, though multi-
+   centered in a technical way (i.e. multiple IRC servers form an IRC
+   network), the network is politically centralized, controlled by one
 
 
 
@@ -114,12 +114,45 @@ Yu                            Informational                     [Page 2]
                     Pragmatic Use of Nonfree Software         April 2022
 
 
-2.  The Plan
+   entity, Libera.  The Internet Relay Chat server-to-server protocol
+   implies that servers fully trust each other and are expected to not
+   send damaging commands, which in turn implies full trust between
+   server operators, no federation, and political centralization.  The
+   privacy policy and network policy of Libera Chat are in the author's
+   opinion non-intrusive, therefore the use of which is acceptable and
+   is promoted by the FSF.  (Obviously, most methods of using IRC do not
+   involve nonfree software.)
 
-   But there is one special case where using some nonfree software, and
-   even urging others to use it, can be a positive thing.  That's when
-   the use of the nonfree software aims directly at putting an end to
-   the use of that very same nonfree software.[RMSGP]
+   Nevertheless, those that have never touched Free Software are often
+   on giant proprietary platforms, and take these as universal methods
+   of communication.  Many people go months before checking their
+   mailbox (physical or electronic), refuse to use XMPP or IRC for its
+   age.
+
+   An alternative protocol, Internet Delay Chat, is being developed.
+
+   There is one special case where using some nonfree software, and even
+   urging others to use it, can be a positive thing.  That's when the
+   use of the nonfree software aims directly at putting an end to the
+   use of that very same nonfree software.[RMSGP] The author believes
+   that the following fall within this scope:
+
+   *  Developing a free program that requires nonfree environments to
+      bootstrap;
+   *  To spread awareness of software freedom issues to users in nonfree
+      environments.
+
+   As almost all types of programming can be done on most types of BSD
+   and GNU operating systems, the author hasn't found any software that
+   fit this category.  Extending the interpretation allos for using
+   nonfree software's behavior as a reference in free software
+   development, though an arguable programming practice, may help the
+   community to progress by understanding common features that users of
+   nonfree services use.
+
+   The latter is more interesting, with reasons explained above.
+
+2.  The Plan
 
 3.  Technical Limitations
 
@@ -128,6 +161,14 @@ Yu                            Informational                     [Page 2]
 4.  Conclusion
 
    Hi
+
+
+
+
+Yu                            Informational                     [Page 3]
+
+                    Pragmatic Use of Nonfree Software         April 2022
+
 
 5.  FSF Considerations
 
@@ -140,9 +181,6 @@ Yu                            Informational                     [Page 2]
               is-ever-good-use-nonfree-program.en.html>.
 
 Acknowledgements
-
-   Many thanks to iShareFreedom, qrpnxz, DiffieHellman, Leah Rowe and
-   many others for the ideas (and rebutted arguments) in this article.
 
 Contributors
 
@@ -165,4 +203,22 @@ Author's Address
 
 
 
-Yu                            Informational                     [Page 3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yu                            Informational                     [Page 4]

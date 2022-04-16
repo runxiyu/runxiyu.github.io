@@ -34,10 +34,20 @@
 <t>Generally, users on IRC and XMPP have a fair understanding of the Free Software Movement, and it is quick and easy to inform them what we mean by &quot;free&quot;, &quot;the four freedoms&quot;, and similar ideas.  For users on the Libera Chat IRC network, which by far has the most users of any network, it is exceptionally easy to introduce a user into the #fsf channel for discussions with people supporting Free Software.  Introducing ignorant users on these protocols and platforms are a day-to-day simple task.</t>
 <t>Furthermore, the amount of users we can reach on these protocols are rather limiting.  Libera has around forty thousand users according to the <tt>USERS</tt> command, and considering the fact that around 90% of these people aren't ignorant, there isn't much we can do.</t>
 <t>Matrix users, in particular users of the matrix.org homeserver, typically know but don't completely understand Free Software.  Rather than using Matrix IDs to identify users, the Matrix specification specifies that third-party platform identities, such as email and GitHub, are how users should be referenced both internally by servers and shown to other users.  This is obviously an increadibly foolish idea, especially considering the use of centralized identity servers (similar to X509 certificate authorities) for 3PIDs.  These are our first targets, but these should also be easy to get the idea across.</t>
+<t>It is true that Libera Chat and similar IRC networks, though multi-centered in a technical way (i.e. multiple IRC servers form an IRC network), the network is politically centralized, controlled by one entity, Libera.  The Internet Relay Chat server-to-server protocol implies that servers fully trust each other and are expected to not send damaging commands, which in turn implies full trust between server operators, no federation, and political centralization.  The privacy policy and network policy of Libera Chat are in the author's opinion non-intrusive, therefore the use of which is acceptable and is promoted by the FSF.  (Obviously, most methods of using IRC do not involve nonfree software.)</t>
+<t>Nevertheless, those that have never touched Free Software are often on giant proprietary platforms, and take these as universal methods of communication.  Many people go months before checking their mailbox (physical or electronic), refuse to use XMPP or IRC for its age.</t>
+<t>An alternative protocol, Internet Delay Chat, is being developed.</t>
+<t>There is one special case where using some nonfree software, and even urging others to use it, can be a positive thing. That's when the use of the nonfree software aims directly at putting an end to the use of that very same nonfree software.<xref target="RMSGP"></xref>  The author believes that the following fall within this scope:</t>
+
+<ul spacing="compact">
+<li>Developing a free program that requires nonfree environments to bootstrap;</li>
+<li>To spread awareness of software freedom issues to users in nonfree environments.</li>
+</ul>
+<t>As almost all types of programming can be done on most types of BSD and GNU operating systems, the author hasn't found any software that fit this category.  Extending the interpretation allos for using nonfree software's behavior as a reference in free software development, though an arguable programming practice, may help the community to progress by understanding common features that users of nonfree services use.</t>
+<t>The latter is more interesting, with reasons explained above.</t>
 </section>
 
 <section anchor="the-plan"><name>The Plan</name>
-<t>But there is one special case where using some nonfree software, and even urging others to use it, can be a positive thing. That's when the use of the nonfree software aims directly at putting an end to the use of that very same nonfree software.<xref target="RMSGP"></xref></t>
 </section>
 
 <section anchor="technical-limitations"><name>Technical Limitations</name>
@@ -68,7 +78,6 @@
 </references>
 
 <section anchor="acknowledgements" numbered="false"><name>Acknowledgements</name>
-<t>Many thanks to iShareFreedom, qrpnxz, DiffieHellman, Leah Rowe and many others for the ideas (and rebutted arguments) in this article.</t>
 </section>
 
 <section anchor="contributors" numbered="false"><name>Contributors</name>

@@ -54,9 +54,22 @@ Furthermore, the amount of users we can reach on these protocols are rather limi
 
 Matrix users, in particular users of the matrix.org homeserver, typically know but don't completely understand Free Software.  Rather than using Matrix IDs to identify users, the Matrix specification specifies that third-party platform identities, such as email and GitHub, are how users should be referenced both internally by servers and shown to other users.  This is obviously an increadibly foolish idea, especially considering the use of centralized identity servers (similar to X509 certificate authorities) for 3PIDs.  These are our first targets, but these should also be easy to get the idea across.
 
-# The Plan
+It is true that Libera Chat and similar IRC networks, though multi-centered in a technical way (i.e. multiple IRC servers form an IRC network), the network is politically centralized, controlled by one entity, Libera.  The Internet Relay Chat server-to-server protocol implies that servers fully trust each other and are expected to not send damaging commands, which in turn implies full trust between server operators, no federation, and political centralization.  The privacy policy and network policy of Libera Chat are in the author's opinion non-intrusive, therefore the use of which is acceptable and is promoted by the FSF.  (Obviously, most methods of using IRC do not involve nonfree software.)
 
-But there is one special case where using some nonfree software, and even urging others to use it, can be a positive thing. That's when the use of the nonfree software aims directly at putting an end to the use of that very same nonfree software.[@!RMSGP]
+Nevertheless, those that have never touched Free Software are often on giant proprietary platforms, and take these as universal methods of communication.  Many people go months before checking their mailbox (physical or electronic), refuse to use XMPP or IRC for its age.
+
+An alternative protocol, Internet Delay Chat, is being developed.
+
+There is one special case where using some nonfree software, and even urging others to use it, can be a positive thing. That's when the use of the nonfree software aims directly at putting an end to the use of that very same nonfree software.[@!RMSGP]  The author believes that the following fall within this scope:
+
+- Developing a free program that requires nonfree environments to bootstrap;
+- To spread awareness of software freedom issues to users in nonfree environments.
+
+As almost all types of programming can be done on most types of BSD and GNU operating systems, the author hasn't found any software that fit this category.  Extending the interpretation allos for using nonfree software's behavior as a reference in free software development, though an arguable programming practice, may help the community to progress by understanding common features that users of nonfree services use.
+
+The latter is more interesting, with reasons explained above.
+
+# The Plan
 
 # Technical Limitations
 
@@ -75,13 +88,22 @@ Hi
 {numbered="false"}
 # Acknowledgements
 
-Many thanks to iShareFreedom, qrpnxz, DiffieHellman, Leah Rowe and many others for the ideas (and rebutted arguments) in this article.
+<!--77uuMany thanks to iShareFreedom, qrpnxz, DiffieHellman, Leah Rowe and many others for the ideas (and rebutted arguments) in this article.-->
 
 {numbered="false"}
 # Contributors
 
 Many thanks to everyone in the Free Software community for the freedom we have today.
 
+<reference anchor="RFC2813" target="https://www.rfc-editor.org/rfc/rfc2813.txt">
+   <front>
+      <title>Internet Relay Chat: Server Protocol</title>
+      <author>
+         <organization>Internet Engineering Task Force</organization>
+      </author>
+      <date year="2013" month="September"></date>
+   </front>
+</reference>
 <reference anchor="RMSGP" target="http://www.gnu.org/philosophy/is-ever-good-use-nonfree-program.en.html">
    <front>
       <title>Is It Ever a Good Thing to Use a Nonfree Program?</title>
