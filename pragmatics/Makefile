@@ -10,6 +10,7 @@ pragmatics.7: pragmatics.md
 pragmatics.txt pragmatics.html: pragmatics.xml
 	xml2rfc --text --html pragmatics.xml
 	sed -i -e '/\f/{n;s/^.\{5\}/RFD 1/}' pragmatics.txt
+	ed pragmatics.txt < Edfile
 pragmatics.xml: pragmatics.md
 	sed '0,/title =/{s/ ."$$/"/}' pragmatics.md | mmark > pragmatics.xml
 
