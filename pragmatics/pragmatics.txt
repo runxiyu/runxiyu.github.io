@@ -150,12 +150,12 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    use of that very same nonfree software.[RMSGP] The author believes
    that the following fall within this scope:
 
-   *  Developing a free program that requires nonfree environments to
+   *  Developing a free project that requires nonfree environments to
       bootstrap;
    *  To spread awareness of software freedom issues to users in nonfree
       environments.
 
-   As almost all types of programming can be done on most types of BSD
+   As almost all types of development can be done on most types of BSD
    and GNU operating systems, the author hasn't found any software that
    fit this category.  Extending the interpretation allos for using
    nonfree software's behavior as a reference in Free Software

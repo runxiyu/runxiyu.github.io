@@ -66,10 +66,10 @@ An alternative protocol, Internet Delay Chat, is being developed.
 
 There is one special case where using some nonfree software, and even urging others to use it, can be a positive thing. That's when the use of the nonfree software aims directly at putting an end to the use of that very same nonfree software.[@!RMSGP]  The author believes that the following fall within this scope:
 
-- Developing a free program that requires nonfree environments to bootstrap;
+- Developing a free project that requires nonfree environments to bootstrap;
 - To spread awareness of software freedom issues to users in nonfree environments.
 
-As almost all types of programming can be done on most types of BSD and GNU operating systems, the author hasn't found any software that fit this category.  Extending the interpretation allos for using nonfree software's behavior as a reference in Free Software development, though an arguable programming practice, may help the community to progress by understanding common features that users of nonfree services use.
+As almost all types of development can be done on most types of BSD and GNU operating systems, the author hasn't found any software that fit this category.  Extending the interpretation allos for using nonfree software's behavior as a reference in Free Software development, though an arguable programming practice, may help the community to progress by understanding common features that users of nonfree services use.
 
 The latter is more interesting, as explained above our methods of spreading awareness is limited.
 

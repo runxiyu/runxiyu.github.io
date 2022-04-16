@@ -114,7 +114,7 @@ JJUUSSTTIIFFIICCAATTIIOONN
        following fall within this scope:
 
 
-       +o   Developing a free program that  requires  nonfree  environments  to
+       +o   Developing a free project that  requires  nonfree  environments  to
            bootstrap;
 
        +o   To  spread awareness of software freedom issues to users in nonfree
@@ -122,7 +122,7 @@ JJUUSSTTIIFFIICCAATTIIOONN
 
 
 
-       As almost all types of programming can be done on most types of BSD and
+       As almost all types of development can be done on most types of BSD and
        GNU  operating  systems,  the author hasn't found any software that fit
        this category.  Extending the interpretation allos  for  using  nonfree
        software's behavior as a reference in Free Software development, though
