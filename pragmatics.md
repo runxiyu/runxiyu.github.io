@@ -20,7 +20,7 @@ initials = "A. Yu"
 surname = "Yu"
 fullname = "Andrew Yu"
 #role = "author"
-organization = "The Second School Affiliated to Fudan University"
+organization = "The 2nd School Aff. to FDU"
   [author.address]
   email = "andrew@andrewyu.org"
   uri = "https://www.andrewyu.org/"

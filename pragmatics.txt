@@ -3,7 +3,7 @@
 
 
 Free Software Community                                        A. Yu. Yu
-                        The Second School Affiliated to Fudan University
+                                              The 2nd School Aff. to FDU
                                                            16 April 2022
 
 
@@ -152,7 +152,7 @@ Contributors
 Author's Address
 
    Andrew Yu
-   The Second School Affiliated to Fudan University
+   The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
 
