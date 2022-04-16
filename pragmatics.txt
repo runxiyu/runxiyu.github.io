@@ -212,10 +212,10 @@ Yu                            Informational                     [Page 3]
    The old and centralized nature of IRC, the insane 3PID recommendation
    of Matrix, the bad routing and efficency of XMPP, and the lack of
    documentation on PSYC, has led us to develop a new protocol, Internet
-   Delay Chat, which aims to be free, modern (i.e. support for channel
-   groups and shared permission sets, non-text data with MIME types),
-   sane (i.e.  TCP, UDP and SCTP-based, instead of HTTP POST APIs) and
-   simple.
+   Delay Chat[IDC], which aims to be free, modern (i.e. support for
+   channel groups and shared permission sets, non-text data with MIME
+   types), sane (i.e.  TCP, UDP and SCTP-based, instead of HTTP POST
+   APIs) and simple.
 
 
 
@@ -236,7 +236,10 @@ Yu                            Informational                     [Page 4]
 
 7.  Normative References
 
-   [RMSGP]    The GNU Project, "Is It Ever a Good Thing to Use a Nonfree
+   [IDC]      Yu, A., "Internet Delay Chat", April 2022,
+              <https://git.andrewyu.org/internet-delay-chat>.
+
+   [RMSGP]    Stallman, R., "Is It Ever a Good Thing to Use a Nonfree
               Program?", September 2013, <http://www.gnu.org/philosophy/
               is-ever-good-use-nonfree-program.en.html>.
 
@@ -247,15 +250,12 @@ Contributors
    Many thanks to everyone in the Free Software community for the
    freedom we have today.
 
-   git://git.andrewyu.org/internet-delay-chat
-
 Author's Address
 
    Andrew Yu
    The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
 
 
 

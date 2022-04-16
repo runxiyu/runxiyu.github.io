@@ -172,9 +172,9 @@ TTEECCHHNNIICCAALL LLIIMMIITTAATTIIOONNSS
        The old and centralized nature of IRC, the insane  3PID  recommendation
        of Matrix, the bad routing and efficency of XMPP, and the lack of docu-
        mentation on PSYC, has led us to develop a new protocol, Internet Delay
-       Chat,  which  aims  to be free, modern (i.e. support for channel groups
-       and shared permission sets, non-text data with MIME types), sane  (i.e.
-       TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
+       Chat[IDC],  which  aims  to  be  free, modern (i.e. support for channel
+       groups and shared permission sets, non-text data with MIME types), sane
+       (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
 
 
 CCOONNCCLLUUSSIIOONN
@@ -186,10 +186,15 @@ FFSSFF CCOONNSSIIDDEERRAATTIIOONNSS
 
 
 BBIIBBLLIIOOGGRRAAPPHHYY
+       [IDC]  Andrew  Yu  The Second School Affiliated to Fudan University In-
+              ternet  Delay   Chat   <https://git.andrewyu.org/internet-delay-
+              chat>2022
+
+
        [RMSGP]
-              The  GNU  Project  Is It Ever a Good Thing to Use a Nonfree Pro-
-              gram?   <http://www.gnu.org/philosophy/is-ever-good-use-nonfree-
-              program.en.html>2013
+              Richard  Stallman The GNU Project Is It Ever a Good Thing to Use
+              a Nonfree Program?  <http://www.gnu.org/philosophy/is-ever-good-
+              use-nonfree-program.en.html>2013
 
 
 
@@ -199,9 +204,6 @@ AACCKKNNOOWWLLEEDDGGEEMMEENNTTSS  <<!!----7777uuuuMMaa
 CCOONNTTRRIIBBUUTTOORRSS
        Many  thanks to everyone in the Free Software community for the freedom
        we have today.
-
-
-       git://git.andrewyu.org/internet-delay-chat
 
 
 AAUUTTHHOORRSS

@@ -82,7 +82,7 @@ Communities for introducing users to Free Software on nonfree platforms **MUST**
 For example, the author created a Discord Guild called Free Software Introductions, which is one-way-puppeted to #fsi on irc.andrewyu.org, which is then one-way-puppeted to Libera.  The relay system is sort-of messed up, but it's working.  Inviting new users to it via https://discord.gg/7CYp7ntww7 is good, but as the author has made his own sacrifice already, there exists no need for other existing Free Software activists to join and use it instead of IRC.
 
 # Technical Limitations
-The old and centralized nature of IRC, the insane 3PID recommendation of Matrix, the bad routing and efficency of XMPP, and the lack of documentation on PSYC, has led us to develop a new protocol, Internet Delay Chat, which aims to be free, modern (i.e. support for channel groups and shared permission sets, non-text data with MIME types), sane (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
+The old and centralized nature of IRC, the insane 3PID recommendation of Matrix, the bad routing and efficency of XMPP, and the lack of documentation on PSYC, has led us to develop a new protocol, Internet Delay Chat[@!IDC], which aims to be free, modern (i.e. support for channel groups and shared permission sets, non-text data with MIME types), sane (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
 
 
 # Conclusion
@@ -117,11 +117,26 @@ Many thanks to everyone in the Free Software community for the freedom we have t
 <reference anchor="RMSGP" target="http://www.gnu.org/philosophy/is-ever-good-use-nonfree-program.en.html">
    <front>
       <title>Is It Ever a Good Thing to Use a Nonfree Program?</title>
-      <author>
-         <organization>The GNU Project</organization>
-      </author>
+        <author initials='R.' surname='Stallman' fullname='Richard Stallman'>
+            <organization>The GNU Project</organization>
+            <address>
+                <email>rms@gnu.org</email>
+                <uri>https://stallman.org/</uri>
+            </address>
+        </author>
       <date year="2013" month="September"></date>
    </front>
 </reference>
-
-git://git.andrewyu.org/internet-delay-chat
+<reference anchor='IDC' target='https://git.andrewyu.org/internet-delay-chat'>
+    <front>
+        <title>Internet Delay Chat</title>
+        <author initials='A.' surname='Yu' fullname='Andrew Yu'>
+            <organization>The Second School Affiliated to Fudan University</organization>
+            <address>
+                <email>andrew@andrewyu.org</email>
+                <uri>https://www.andrewyu.org/</uri>
+            </address>
+        </author>
+        <date year='2022' month="April" />
+    </front>
+</reference>

@@ -58,7 +58,7 @@
 </section>
 
 <section anchor="technical-limitations"><name>Technical Limitations</name>
-<t>The old and centralized nature of IRC, the insane 3PID recommendation of Matrix, the bad routing and efficency of XMPP, and the lack of documentation on PSYC, has led us to develop a new protocol, Internet Delay Chat, which aims to be free, modern (i.e. support for channel groups and shared permission sets, non-text data with MIME types), sane (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.</t>
+<t>The old and centralized nature of IRC, the insane 3PID recommendation of Matrix, the bad routing and efficency of XMPP, and the lack of documentation on PSYC, has led us to develop a new protocol, Internet Delay Chat<xref target="IDC"></xref>, which aims to be free, modern (i.e. support for channel groups and shared permission sets, non-text data with MIME types), sane (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.</t>
 </section>
 
 <section anchor="conclusion"><name>Conclusion</name>
@@ -73,11 +73,28 @@
 
 <back>
 <references><name>Normative References</name>
+<reference anchor="IDC" target="https://git.andrewyu.org/internet-delay-chat">
+  <front>
+    <title>Internet Delay Chat</title>
+    <author fullname="Andrew Yu" initials="A." surname="Yu">
+      <organization>The Second School Affiliated to Fudan University</organization>
+      <address>
+        <email>andrew@andrewyu.org</email>
+        <uri>https://www.andrewyu.org/</uri>
+      </address>
+    </author>
+    <date year="2022" month="April"></date>
+  </front>
+</reference>
 <reference anchor="RMSGP" target="http://www.gnu.org/philosophy/is-ever-good-use-nonfree-program.en.html">
   <front>
     <title>Is It Ever a Good Thing to Use a Nonfree Program?</title>
-    <author>
+    <author fullname="Richard Stallman" initials="R." surname="Stallman">
       <organization>The GNU Project</organization>
+      <address>
+        <email>rms@gnu.org</email>
+        <uri>https://stallman.org/</uri>
+      </address>
     </author>
     <date year="2013" month="September"></date>
   </front>
@@ -89,7 +106,6 @@
 
 <section anchor="contributors" numbered="false"><name>Contributors</name>
 <t>Many thanks to everyone in the Free Software community for the freedom we have today.</t>
-<t>git://git.andrewyu.org/internet-delay-chat</t>
 </section>
 
 </back>
