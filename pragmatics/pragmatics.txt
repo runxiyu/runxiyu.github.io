@@ -55,7 +55,7 @@ Table of Contents
 
 Yu                            Informational                     [Page 1]
 
-                    Pragmatic Use of Nonfree Software         April 2022
+RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
    Discord account, creating a Guild called "Free Software
@@ -111,7 +111,7 @@ Yu                            Informational                     [Page 1]
 
 Yu                            Informational                     [Page 2]
 
-                    Pragmatic Use of Nonfree Software         April 2022
+RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
    Matrix users, in particular users of the matrix.org homeserver,
@@ -167,7 +167,7 @@ Yu                            Informational                     [Page 2]
 
 Yu                            Informational                     [Page 3]
 
-                    Pragmatic Use of Nonfree Software         April 2022
+RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
    The latter is more interesting, as explained above our methods of
@@ -223,7 +223,7 @@ Yu                            Informational                     [Page 3]
 
 Yu                            Informational                     [Page 4]
 
-                    Pragmatic Use of Nonfree Software         April 2022
+RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
 5.  Conclusion
