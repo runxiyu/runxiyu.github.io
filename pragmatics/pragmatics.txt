@@ -228,11 +228,7 @@ Yu                            Informational                     [Page 4]
 
 5.  Conclusion
 
-   Hi
-
 6.  FSF Considerations
-
-   Hi
 
 7.  Normative References
 
@@ -247,15 +243,19 @@ Acknowledgements
 
 Contributors
 
-   Many thanks to everyone in the Free Software community for the
-   freedom we have today.
-
 Author's Address
 
    Andrew Yu
    The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
+
+
+
+
+
+
+
 
 
 

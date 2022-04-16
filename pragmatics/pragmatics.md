@@ -87,23 +87,17 @@ The old and centralized nature of IRC, the insane 3PID recommendation of Matrix,
 
 # Conclusion
 
-Hi
-
 # FSF Considerations
-
-Hi
 
 {backmatter}
 
 {numbered="false"}
 # Acknowledgements
 
-<!--77uuMany thanks to iShareFreedom, qrpnxz, DiffieHellman, Leah Rowe and many others for the ideas (and rebutted arguments) in this article.-->
 
 {numbered="false"}
 # Contributors
 
-Many thanks to everyone in the Free Software community for the freedom we have today.
 
 <reference anchor="RFC2813" target="https://www.rfc-editor.org/rfc/rfc2813.txt">
    <front>

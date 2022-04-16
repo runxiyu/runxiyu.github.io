@@ -178,13 +178,7 @@ TTEECCHHNNIICCAALL LLIIMMIITTAATTIIOONNSS
 
 
 CCOONNCCLLUUSSIIOONN
-       Hi
-
-
 FFSSFF CCOONNSSIIDDEERRAATTIIOONNSS
-       Hi
-
-
 BBIIBBLLIIOOGGRRAAPPHHYY
        [IDC]  Andrew  Yu  The Second School Affiliated to Fudan University In-
               ternet  Delay   Chat   <https://git.andrewyu.org/internet-delay-
@@ -198,14 +192,8 @@ BBIIBBLLIIOOGGRRAAPPHHYY
 
 
 
-AACCKKNNOOWWLLEEDDGGEEMMEENNTTSS  <<!!----7777uuuuMMaannyy tthhaannkkss ttoo iiSShhaarreeFFrreeeeddoomm,, qqrrppnnxxzz,, DDiiffffiieeHHeellllmmaann,,
-       LLeeaahh RRoowwee aanndd mmaannyy ootthheerrss ffoorr tthhee iiddeeaass  ((aanndd  rreebbuutttteedd  aarrgguummeennttss))  iinn
-       tthhiiss aarrttiiccllee..---->>
+AACCKKNNOOWWLLEEDDGGEEMMEENNTTSS
 CCOONNTTRRIIBBUUTTOORRSS
-       Many  thanks to everyone in the Free Software community for the freedom
-       we have today.
-
-
 AAUUTTHHOORRSS
        Written by Andrew Yu.
 
