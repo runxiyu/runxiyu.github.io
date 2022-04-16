@@ -36,6 +36,10 @@
 <t>Matrix users, in particular users of the matrix.org homeserver, typically know but don't completely understand Free Software.  Rather than using Matrix IDs to identify users, the Matrix specification specifies that third-party platform identities, such as email and GitHub, are how users should be referenced both internally by servers and shown to other users.  This is obviously an increadibly foolish isea, especially considering the use of centralized identity servers (similar to X509 certificate authorities) for 3PIDs.  These are our first targets, but these should also be easy to get the idea across.</t>
 </section>
 
+<section anchor="the-plan"><name>The Plan</name>
+<t>But there is one special case where using some nonfree software, and even urging others to use it, can be a positive thing. That's when the use of the nonfree software aims directly at putting an end to the use of that very same nonfree software.<xref target="RMSGP"></xref></t>
+</section>
+
 <section anchor="technical-limitations"><name>Technical Limitations</name>
 <t>git://git.andrewyu.org/internet-delay-chat</t>
 </section>
@@ -51,6 +55,17 @@
 </middle>
 
 <back>
+<references><name>Normative References</name>
+<reference anchor="RMSGP" target="http://www.gnu.org/philosophy/is-ever-good-use-nonfree-program.en.html">
+  <front>
+    <title>Is It Ever a Good Thing to Use a Nonfree Program?</title>
+    <author>
+      <organization>The GNU Project</organization>
+    </author>
+    <date year="2013" month="December"></date>
+  </front>
+</reference>
+</references>
 
 <section anchor="acknowledgements" numbered="false"><name>Acknowledgements</name>
 <t>Many thanks to iShareFreedom, qrpnxz, DiffieHellman, Leah Rowe and many others for the ideas (and rebutted arguments) in this article.</t>

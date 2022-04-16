@@ -4,7 +4,7 @@
 
 Free Software Community                                        A. Yu. Yu
                         The Second School Affiliated to Fudan University
-                                                           15 April 2022
+                                                           16 April 2022
 
 
                    Pragmatic Use of Nonfree Software
@@ -26,9 +26,11 @@ Status of This Memo
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   1
-   2.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   3
-   3.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   4.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   3
+   2.  The Plan  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+   3.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   3
+   4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   3
+   5.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   3
+   6.  Normative References  . . . . . . . . . . . . . . . . . . . .   3
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   3
    Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   3
@@ -48,8 +50,6 @@ Table of Contents
    Discord account, creating a Guild called "Free Software
    Introductions", and setting up a basic Discord-to-IRC relay to #fsi
    on both irc.andrewyu.org and irc.libera.chat.
-
-
 
 
 
@@ -114,17 +114,30 @@ Yu                            Informational                     [Page 2]
                     Pragmatic Use of Nonfree Software         April 2022
 
 
-2.  Technical Limitations
+2.  The Plan
+
+   But there is one special case where using some nonfree software, and
+   even urging others to use it, can be a positive thing.  That's when
+   the use of the nonfree software aims directly at putting an end to
+   the use of that very same nonfree software.[RMSGP]
+
+3.  Technical Limitations
 
    git://git.andrewyu.org/internet-delay-chat
 
-3.  Conclusion
+4.  Conclusion
 
    Hi
 
-4.  FSF Considerations
+5.  FSF Considerations
 
    Hi
+
+6.  Normative References
+
+   [RMSGP]    The GNU Project, "Is It Ever a Good Thing to Use a Nonfree
+              Program?", December 2013, <http://www.gnu.org/philosophy/
+              is-ever-good-use-nonfree-program.en.html>.
 
 Acknowledgements
 
@@ -142,19 +155,6 @@ Author's Address
    The Second School Affiliated to Fudan University
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
