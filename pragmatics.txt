@@ -26,14 +26,15 @@ Status of This Memo
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   1
-   2.  The Plan  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   3.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   3
-   4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   5.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   4
-   6.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
+   2.  Justification . . . . . . . . . . . . . . . . . . . . . . . .   2
+   3.  Action Procedure  . . . . . . . . . . . . . . . . . . . . . .   4
+   4.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   4
+   5.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   4
+   6.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   4
+   7.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   4
-   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   4
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   4
+   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
 1.  Introduction
 
@@ -44,12 +45,11 @@ Table of Contents
    technology coorporations, our methods of communicating with the
    masses are ineffective.
 
-   In February 2022, the author decided to adjust his dogma, and
-   permitted limited usage of nonfree chat platforms to hopefully spread
-   our ideas to the general public.  This was attempted by registering a
-   Discord account, creating a Guild called "Free Software
-   Introductions", and setting up a basic Discord-to-IRC relay to #fsi
-   on both irc.andrewyu.org and irc.libera.chat.
+
+
+
+
+
 
 
 
@@ -57,6 +57,13 @@ Yu                            Informational                     [Page 1]
 
                     Pragmatic Use of Nonfree Software         April 2022
 
+
+   In February 2022, the author decided to adjust his dogma, and
+   permitted limited usage of nonfree chat platforms to hopefully spread
+   our ideas to the general public.  This was attempted by registering a
+   Discord account, creating a Guild called "Free Software
+   Introductions", and setting up a basic Discord-to-IRC relay to #fsi
+   on both irc.andrewyu.org and irc.libera.chat.
 
    One of the communities that he knows about, the VF-Technic Minetest
    community, primarily uses Discord as a means of communication by
@@ -68,6 +75,8 @@ Yu                            Informational                     [Page 1]
    of "open source" instead.  After sharing the invite link in the VF-
    Technic Guild, some people joined, and we've partially converted two
    users.
+
+2.  Justification
 
    Two users is definitely few, but it sets a start and an example for
    how freedom can be spread.
@@ -97,6 +106,14 @@ Yu                            Informational                     [Page 1]
    typically know but don't completely understand Free Software.  Rather
    than using Matrix IDs to identify users, the Matrix specification
    specifies that third-party platform identities, such as email and
+
+
+
+Yu                            Informational                     [Page 2]
+
+                    Pragmatic Use of Nonfree Software         April 2022
+
+
    GitHub, are how users should be referenced both internally by servers
    and shown to other users.  This is obviously an increadibly foolish
    idea, especially considering the use of centralized identity servers
@@ -106,14 +123,6 @@ Yu                            Informational                     [Page 1]
    It is true that Libera Chat and similar IRC networks, though multi-
    centered in a technical way (i.e. multiple IRC servers form an IRC
    network), the network is politically centralized, controlled by one
-
-
-
-Yu                            Informational                     [Page 2]
-
-                    Pragmatic Use of Nonfree Software         April 2022
-
-
    entity, Libera.  The Internet Relay Chat server-to-server protocol
    implies that servers fully trust each other and are expected to not
    send damaging commands, which in turn implies full trust between
@@ -150,17 +159,8 @@ Yu                            Informational                     [Page 2]
    community to progress by understanding common features that users of
    nonfree services use.
 
-   The latter is more interesting, with reasons explained above.
-
-2.  The Plan
-
-3.  Technical Limitations
-
-   git://git.andrewyu.org/internet-delay-chat
-
-4.  Conclusion
-
-   Hi
+   The latter is more interesting, as explained above our methods of
+   spreading awareness is limited.
 
 
 
@@ -170,17 +170,61 @@ Yu                            Informational                     [Page 3]
                     Pragmatic Use of Nonfree Software         April 2022
 
 
-5.  FSF Considerations
+3.  Action Procedure
+
+   Activists *SOULD NOT* list such nonfree services in "Contact
+   Information" pages on their website or similar sources, unless
+   followed by a explanation that the purpose of the nonfree platform is
+   to introduce users thereof onto free protocols and to eventually
+   exterminate the nonfree platform.  Whenever these references to
+   nonfree platforms appear, the author MUST present free methods of
+   communication.  Activists SHOULD pragmatically use as many of the
+   popular free protocols as possible, to ensure that oppurtunities of
+   introductions are not lost.  In cases involving competition between
+   free and nonfree protocols and platforms, ethical concerns (i.e.
+   enabling talking to a new user on any ethical platform) MUST take
+   precedence over technical concerns (such as disliking the XMPP
+   protocol for its inefficent use of XML) whenever possible.
+
+   Communities for introducing users to Free Software on nonfree
+   platforms MUST be bridged to a free protocol in some obvious way, in
+   order to minimize the usage of nonfree platforms even for the purpose
+   of communicating ideology to new users and allow members of the Free
+   Software community refusing to use nonfree platforms in any way to
+   participate.  Usages of nonfree platforms, besides part of the user-
+   introduction process that must happen on the nonfree platform, SHOULD
+   be avoided.
+
+4.  Technical Limitations
+
+   git://git.andrewyu.org/internet-delay-chat
+
+5.  Conclusion
 
    Hi
 
-6.  Normative References
+6.  FSF Considerations
+
+   Hi
+
+7.  Normative References
 
    [RMSGP]    The GNU Project, "Is It Ever a Good Thing to Use a Nonfree
               Program?", September 2013, <http://www.gnu.org/philosophy/
               is-ever-good-use-nonfree-program.en.html>.
 
 Acknowledgements
+
+
+
+
+
+
+
+Yu                            Informational                     [Page 4]
+
+                    Pragmatic Use of Nonfree Software         April 2022
+
 
 Contributors
 
@@ -221,4 +265,16 @@ Author's Address
 
 
 
-Yu                            Informational                     [Page 4]
+
+
+
+
+
+
+
+
+
+
+
+
+Yu                            Informational                     [Page 5]

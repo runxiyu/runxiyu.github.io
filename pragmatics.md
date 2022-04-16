@@ -44,6 +44,8 @@ In February 2022, the author decided to adjust his dogma, and permitted limited 
 
 One of the communities that he knows about, the VF-Technic Minetest community, primarily uses Discord as a means of communication by plays not in-game.  As the users inside are Minetest players, a Free Software voxel sandbox game, similar to but much more flexible and freedom-respecting than Minecraft, it is believed that the users have some contact with Free Software, although they might not understand the freedom part of the issue, i.e. they might be thinking in terms of "open source" instead.  After sharing the invite link in the VF-Technic Guild, some people joined, and we've partially converted two users.
 
+# Justification
+
 Two users is definitely few, but it sets a start and an example for how freedom can be spread.
 
 There are numerous free replacements to proprietary services such as Discord, such as Internet Relay Chat, the Extensible Messaging and Presense Protocol, the Matrix protocol, and email.  As Free Software activists, we generally prefer these protocols over nonfree services.  This section explains the reasons to consider nonfree services and protocols.
@@ -67,9 +69,13 @@ There is one special case where using some nonfree software, and even urging oth
 
 As almost all types of programming can be done on most types of BSD and GNU operating systems, the author hasn't found any software that fit this category.  Extending the interpretation allos for using nonfree software's behavior as a reference in free software development, though an arguable programming practice, may help the community to progress by understanding common features that users of nonfree services use.
 
-The latter is more interesting, with reasons explained above.
+The latter is more interesting, as explained above our methods of spreading awareness is limited.
 
-# The Plan
+# Action Procedure
+
+Activists **SOULD NOT** list such nonfree services in "Contact Information" pages on their website or similar sources, unless followed by a explanation that the purpose of the nonfree platform is to introduce users thereof onto free protocols and to eventually exterminate the nonfree platform.  Whenever these references to nonfree platforms appear, the author **MUST** present free methods of communication.  Activists **SHOULD** pragmatically use as many of the popular free protocols as possible, to ensure that oppurtunities of introductions are not lost.  In cases involving competition between free and nonfree protocols and platforms, ethical concerns (i.e. enabling talking to a new user on any ethical platform) **MUST** take precedence over technical concerns (such as disliking the XMPP protocol for its inefficent use of XML) whenever possible.
+
+Communities for introducing users to Free Software on nonfree platforms **MUST** be bridged to a free protocol in some obvious way, in order to minimize the usage of nonfree platforms even for the purpose of communicating ideology to new users and allow members of the Free Software community refusing to use nonfree platforms in any way to participate.  Usages of nonfree platforms, besides part of the user-introduction process that must happen on the nonfree platform, **SHOULD** be avoided.
 
 # Technical Limitations
 
