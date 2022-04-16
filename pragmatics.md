@@ -16,7 +16,7 @@ stream = "independent"
 status = "informational"
 
 [[author]]
-initials = "A. Yu"
+initials = "A."
 surname = "Yu"
 fullname = "Andrew Yu"
 #role = "author"
