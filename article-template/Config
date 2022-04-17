@@ -1,0 +1,30 @@
+#!/bin/sh
+
+[ -z "$4" ] && printf "$0: Not enough arguments.\n$0: You MUST run this script with the following arguments:\n$0: <Filename> <RFD number> <Full name> <Abbreviated name>\n" > /dev/stderr && exit 1 
+[ "$5" ] && printf "$0: Too many arguments.\n$0: You MUST run this script with the following arguments:\n$0: <Filename> <RFD number> <Full name> <Abbreviated name>\n" > /dev/stderr && exit 2
+
+FILENAME="$1"
+RFDN="$2"
+FULLNAME="$3"
+ABBRNAME="$4"
+
+mv FILENAME.md "$FILENAME".md
+
+sed -i 's/FULLNAME/'"$FULLNAME"'/g' "$FILENAME".md
+sed -i 's/ABBRNAME/'"$ABBRNAME"'/g' "$FILENAME".md
+
+sed 's/FILENAME/'"$FILENAME"'/g' > Makefile << EOF
+update: FILENAME.txt FILENAME.7 FILENAME.html
+	git add .
+	git commit
+	git push
+
+FILENAME.7: FILENAME.md
+	mmark --man FILENAME.md > FILENAME.7
+FILENAME.txt FILENAME.html: FILENAME.xml
+	xml2rfc --text --html FILENAME.xml
+	sed -i -e '/\f/{n;s/^.\{5\}/RFD 1/}' FILENAME.txt
+	ed FILENAME.txt < Edfile
+FILENAME.xml: FILENAME.md
+	sed '0,/title =/{s/ ."\$\$/"/}' FILENAME.md | mmark > FILENAME.xml
+EOF
