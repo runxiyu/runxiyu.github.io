@@ -38,7 +38,7 @@ mv TEMPLATE.md "$FILENAME".md
 
 sed -i 's/RFDN/'"$RFDN"'/g' "$FILENAME".md
 
-sed 's/FILENAME/'"$FILENAME"'/g' > Makefile << EOF
+(sed 's/FILENAME/'"$FILENAME"'/g' << EOF
 update: FILENAME.txt FILENAME.7 FILENAME.html
 	git add .
 	git commit
@@ -48,17 +48,18 @@ FILENAME.7: FILENAME.md
 	mmark --man FILENAME.md > FILENAME.7
 FILENAME.txt FILENAME.html: FILENAME.xml
 	xml2rfc --text --html FILENAME.xml
-	sed -i -e '/\f/{n;s/^.\{5\}/RFD 1/}' FILENAME.txt
+	sed -i -e '/\f/{n;s/^DOTS/RFD RFDN/}' FILENAME.txt
 	ed FILENAME.txt < Edfile
 FILENAME.xml: FILENAME.md
 	sed '0,/title =/{s/ ."\$\$/"/}' FILENAME.md | mmark > FILENAME.xml
 EOF
+) | sed 's/DOTS/'"$(printf 'RFD %s' "$RFDN" | sed 's/././g')"'/g' > Makefile
 
 (sed 's/RFDN/'"$RFDN"'/g' << EOF
 6
-s/^DOTNUM/RFD RFDN/
+s/^DOTS/RFD RFDN/
 wq
 EOF
-) | sed 's/DOTNUM/'"$(printf 'RFD %s' "$RFDN" | sed 's/././g')"'/g' > Edfile
+) | sed 's/DOTS/'"$(printf 'RFD %s' "$RFDN" | sed 's/././g')"'/g' > Edfile
 
 printf "$0: Finished generating Makefile and Edfile.\n$0: You MUST now edit $FILENAME.md and replace the <++>s.\n" > /dev/stderr
