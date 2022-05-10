@@ -1,0 +1,16 @@
+========================================================================
+-                           404 Not Found                              -
+========================================================================
+
+The requested URL was not found on this World Wide Web server.
+
+If you followed a link from another page to this Website, it is
+RECOMMENDED that notify the owner of the aforementioned page to update
+per links.
+
+If you are a siteowner who linked to a page on this Website but the
+linked page is missing, or if you bookmarked a page but it is missing,
+please send an email to <webmaster@andrewyu.org>, or try to discover the
+new link (if any) yourself.
+
+If you typed in the URL, you SHOULD re-check the link for typos.
