@@ -1,345 +1,110 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-        <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-                <head>
-                        <title>
-                                Andrew Yu
-                        </title>
-                        <link rel="stylesheet" href="/plain.css" />
-                        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-                </head>
-                <body>
-                        <h1>
-                                Andrew Yu
-                        </h1>
-                        <hr />
-                        <div id="main">
-                                <div id="nav">
-                                        <h2>
-                                                Navigate around
-                                        </h2>
-                                        <ul>
-                                                <li>
-                                                        <a href="https://www.andrewyu.org">
-                                                                Personal site
-                                                        </a>
-                                                </li>
-                                                <li>
-                                                        <a href="https://rfd.andrewyu.org" class="alert">
-                                                                Request for Discussions (RFDs)
-                                                        </a>
-                                                </li>
-                                                <li>
-                                                        <a href="https://git.andrewyu.org" class="alert">
-                                                                Git repositories
-                                                        </a>
-                                                </li>
-                                                <li>
-                                                        <a href="https://fcm.andrewyu.org" class="alert">
-                                                                Free Computing Movement
-                                                        </a>
-                                                </li>
-                                                <li>
-                                                        <a href="https://libre.andrewyu.org" class="alert">
-                                                                Libre Society
-                                                        </a>
-                                                </li>
-                                                <li>
-                                                        <a href="https://host.andrewyu.org" class="alert">
-                                                                Server guides
-                                                        </a>
-                                                </li>
-                                                <li>
-                                                        <a href="https://users.andrewyu.org">
-                                                                Other users
-                                                        </a>
-                                                </li>
-                                                <li>
-                                                        <a href="https://lib.andrewyu.org">
-                                                                Private file library
-                                                        </a>
-                                                </li>
-                                        </ul>
-                                </div>
-                                <hr />
-                                <div id="campaign">
-                                        <p>
-                                                It is our responsibility to spread
-                                        <a href="https://fsf.org">
-                                                free software
-                                        </a>
-                                                ,
-                                        <a href="https://fcm.andrewyu.org">
-                                                free computing (one of the websites started by me :D)
-                                        </a>
-                                                and advocate for user freedom.  Please don't waste any chances to do so.
-                                        </p>
-                                </div>
-                                <hr />
-                                <div id="majornote">
-                                        <p>
-                                                Most of my new articles are available at the Request for Discussions Website.  Older ones will be republished there.
-                                        </p>
-                                </div>
-                                <hr />
-                                <div id="ponder">
-                                        <h2>
-                                                Help me ponder upon these questions
-                                        </h2>
-                                        <p>
-                                                These are questions that interest me.  Maybe you have ideas?
-                                        </p>
-                                        <h3>
-                                                A Lisp-like Operating System
-                                        </h3>
-                                        <p>
-                                                Anybody who has tried functional programming knows that Lisp and
-                                        <a href="https://haskell.org">
-                                                Haskell
-                                        </a>
-                                                are special and great programming languages.  Most Lispers and all Haskell programmers adhere to the functional style of programming, creating mathematically-provably-correct programs.  I love the fact that Haskell supports Monads well and that it's statically typed (having the debugger find your issues is much more comfortable than debugging mid-run, while it's true that
-                                        <a href="https://ghc.haskell.org">
-                                                GHC
-                                        </a>
-                                                has quite good debugging utilities.  On the other hand, Haskell and Common Lisp have so many pragmatics and syntax sugar.  Scheme (which I consider to be a dialect of Lisp) is much more uniform and symmetric (think of group theory) in syntax, but has bad support for lazy evaluation.
-                                        </p>
-                                        <p>
-                                                There are many modern operating systems, for example the BSDs, GNU+Linux, Plan 9, etc.  (Microsoft Windows and macOS don't count, they're nonfree.)   But security issues are discovered every year in each of them, even
-                                        <a href="https://OpenBSD.org">
-                                                OpenBSD
-                                        </a>
-                                                , which is considered the most secure operating system for general use.  A lot of this has to do with the programming language they're written in, C.
-                                        </p>
-                                        <p>
-                                                In C, you've got a heap of pointers, memory stacks, arrays, linked lists, structures, etc. that you all have to manage by yourself.  This leaves huge gaps for programmer error.  By contrast, it is possible to mathematically prove the correctness (or the lack thereof, though I only use &ldquo;Possible&rdquo; because of Godel Incompleteness) of a functional program.  This eases the work for programmers.
-                                        </p>
-                                        <p>
-                                                Most, if not all security issues in programs written in classical imperative programming languages are with bogus stacks, pointers, etc.  There are countless times when stack overflows are used in attacks.  By using functional languages, it just works!
-                                        </p>
-                                        <p>
-                                                There have been
-                                        <a href="http://metamodular.com/Common-Lisp/lispos.html">
-                                                great proposals by other people
-                                        </a>
-                                                on this ideea.  If you are into operating system development and programming in general, please read it, and share your thoughts with me.  If many people voice on this issue, I'll start an mailing list.
-                                        </p>
-                                        <h3>
-                                                What about a pure functional Lisp dialect, with monads and similar (Haskell) ideas?
-                                        </h3>
-                                        <p>
-                                                I love s-expressions, as they clearly represent the structure of a program, or even natural language.  They also allow for powerful macros, enabling some Lisp dialects to have continuations and other cool stuff.  Haskell, on the other hand, is purely functional, where things that involve side effects are usually implemented with Monads.  I'm looking for an implementation that combines these.
-                                        </p>
-                                        <p>
-                                                <a href="https://shen-language.github.io">
-                                                        The Shen Language
-                                                </a>
-                                                        seems interesting.
-                                                </p>
-                                                <h3>
-                                                        What about a mathematical political system?
-                                                </h3>
-                                                <p>
-                                                        A government too strong causes authoritarianism which may lead to non-democracies, while a government too weak causes the inability of the government to do anything with the slightest controversy (look at COVID handling).  Is there a mathematical way (say a function; this sounds like group theory, but I'm not sure) to compute, based all known information known about the bill/order/whatever being considered, if the government (I'm especially talking about the executive here) has the right to order that? I feel like this could be proved impossible due to incompleteness and unpredictability, but this needs further investigation.  This is the main problem in question of the Libre Society project, by the way.
-                                                </p>
-                                        </div>
-                                        <hr />
-                                        <div id="quotes">
-                                                <h2>
-                                                        Quotes
-                                                </h2>
-                                                <blockquote>
-                                                        <p>
-                                                                Arguing that you don't care about the                 right to privacy because you have nothing to hide is no                 different from saying you don't care about free speech                 because you have nothing to say. &mdash;Edward                 Snowden
-                                                        </p>
-                                                </blockquote>
-                                        </div>
-                                        <hr />
-                                        <div id="me">
-                                                <h2>
-                                                        About me
-                                                </h2>
-                                                <p>
-                                                        I am Andrew Yu.  My main fields of interest are philosophy (especially moral philosophy, and especially especially moral philosophy in technology), metamathematics, programming fundamentals and molecular biology.  I'm also a free software activist.
-                                                </p>
-                                        </div>
-                                        <hr />
-                                        <div id="contact">
-                                                <h2>
-                                                        Contact
-                                                </h2>
-                                                <p>
-                                                        There are many ways to contact me.  None of these require proprietary software.
-                                                </p>
-                                                <ul>
-                                                        <li>
-                                                                talk to me in real life (This method is preferred, if you know me in real life.);
-                                                        </li>
-                                                        <li>
-                                                                mail
-                                                        <a href="mailto:andrew@andrewyu.org">
-                                                                andrew@andrewyu.org
-                                                        </a>
-                                                                (Emails are preferred for in-depth discussions.);
-                                                        </li>
-                                                        <li>
-                                                                xmpp
-                                                        <a href="xmpp:andrew@andrewyu.org">
-                                                                andrew@andrewyu.org
-                                                        </a>
-                                                                (My OTR fingerprint is
-                                                        <code>
-                                                                D860F6CC FEF3D079 A6964AA3 86BD6A34 8F86E218
-                                                        </code>
-                                                                and my OpenPGP fingerprint is as below.  Use this for quick questions, or highly interactive discussions.).
-                                                        </li>
-                                                        <li>
-                                                                irc
-                                                        <a href="irc://irc.andrewyu.org:6697/Andrew">
-                                                                Andrew
-                                                        </a>
-                                                                on
-                                                        <a href="https://irc.andrewyu.org">
-                                                                LibreIRC
-                                                        </a>
-                                                                (LibreIRC is an IRC network started by Andrew, myself, running Solanum IRCd and Atheme Services. Use this for quick questions, or highly interactive discussions.  Since talking on Internet Relay Chat requires people to be online at the same time, use a bouncer, or don't close your client, to ensure that my replies reach you.  Of course you can also give me another way to get to you that's persistent.);
-                                                        </li>
-                                                        <li>
-                                                                irc
-                                                        <a href="irc://irc.libera.chat:6697/Andrew">
-                                                                Andrew
-                                                        </a>
-                                                                on
-                                                        <a href="https://libera.chat">
-                                                                Libera
-                                                        </a>
-                                                                (Libera is an IRC network popular among free software users, activists and developers.  Use this for quick questions, or highly interactive discussions.  Please note that for privacy purposes, you should use some type of encryption.  I am not affiliated with Libera and I don't run it in any way.  Of course, either be on there all the time or give me another way to contact you.).
-                                                        </li>
-                                                </ul>
-                                                <p>
-                                                        There are many ways
-                                                <em>
-                                                        not
-                                                </em>
-                                                        to contact me.
-                                                </p>
-                                                <ul>
-                                                        <li>
-                                                                WeChat is deprecated and unsupported.  I only keep an account for school and use Mojo-Weixin to relay it to IRC.  If you're also bothered by the mandatory usage of these software at school, sign
-                                                        <a href="https://my.fsf.org/give-students-userfreedom">
-                                                                the give students user freedom petition by the FSF
-                                                        </a>
-                                                                ;
-                                                        </li>
-                                                        <li>
-                                                                <a href="https://www.fsf.org/fb">
-                                                                        <img src="https://static.fsf.org/nosvn/not-fd.svg" height="26pt" alt="not f'd&mdash;you won't find me on Facebook" />
-                                                                </a>
-                                                                        .
-                                                                </li>
-                                                        </ul>
-                                                </div>
-                                                <hr />
-                                                <div id="pgp">
-                                                        <h2>
-                                                                OpenPGP
-                                                        </h2>
-                                                        <ul>
-                                                                <li>
-                                                                        <a href="https://www.andrewyu.org/andrew-ecc.asc">
-                                                                                My ECC key
-                                                                        </a>
-                                                                                is recommended;
-                                                                        </li>
-                                                                        <li>
-                                                                                <a href="https://www.andrewyu.org/andrew.asc">
-                                                                                        My RSA key
-                                                                                </a>
-                                                                                        is a fallback;
-                                                                                </li>
-                                                                                <li>
-                                                                                        <a href="https://www.andrewyu.org/allkeys.asc">
-                                                                                                My keyring for friends
-                                                                                        </a>
-                                                                                                ;
-                                                                                        </li>
-                                                                                        <li>
-                                                                                                <a href="https://www.andrewyu.org/revocation.rev">
-                                                                                                        The revocation of my old key
-                                                                                                </a>
-                                                                                                        .
-                                                                                                </li>
-                                                                                        </ul>
-                                                                                        <p class="alert">
-                                                                                                Check if you've actually downloaded these keys from
-                                                                                        <code>
-                                                                                                andrewyu.org
-                                                                                        </code>
-                                                                                                .  Check the fingerprints with me elsewhere (email, IRC, in real life, etc) before trusting or signing it.
-                                                                                        </p>
-                                                                                </div>
-                                                                                <hr />
-                                                                                <div id="randlinks">
-                                                                                        <h2>
-                                                                                                Random Links
-                                                                                        </h2>
-                                                                                        <ul>
-                                                                                                <li>
-                                                                                                        <a href="/favor.css">
-                                                                                                                My favorite CSS to go with this Website
-                                                                                                        </a>
-                                                                                                                ;
-                                                                                                        </li>
-                                                                                                        <li>
-                                                                                                                <a href="https://fsf.org">
-                                                                                                                        The Free Software Foundation
-                                                                                                                </a>
-                                                                                                                        ;
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                        <a href="https://stallmansupport.org">
-                                                                                                                                Defend Richard Stallman
-                                                                                                                        </a>
-                                                                                                                                ;
-                                                                                                                        </li>
-                                                                                                                        <li>
-                                                                                                                                <a href="https://based.cooking">
-                                                                                                                                        A simple clean receipe site
-                                                                                                                                </a>
-                                                                                                                                        ;
-                                                                                                                                </li>
-                                                                                                                                <li>
-                                                                                                                                        <a href="https://www.gnu.org/philosophy/surveillance-vs-democracy.html">
-                                                                                                                                                Surveillance vs democracy
-                                                                                                                                        </a>
-                                                                                                                                                ;
-                                                                                                                                        </li>
-                                                                                                                                        <li>
-                                                                                                                                                <a href="https://www.theguardian.com/commentisfree/2022/jan/19/america-biden-trump-authoritarinism">
-                                                                                                                                                        America's authoritarinism
-                                                                                                                                                </a>
-                                                                                                                                                        .
-                                                                                                                                                </li>
-                                                                                                                                        </ul>
-                                                                                                                                </div>
-                                                                                                                        </div>
-                                                                                                                        <hr />
-                                                                                                                        <div id="footer">
-                                                                                                                                <p>
-                                                                                                                                        Works hosted on this subdomain (
-                                                                                                                                <code>
-                                                                                                                                        www.andrewyu.org
-                                                                                                                                </code>
-                                                                                                                                        ) with the HTTP protocol is under
-                                                                                                                                <a href="/cc0.txt">
-                                                                                                                                        the CC0 public domain dedicator.
-                                                                                                                                </a>
-                                                                                                                        </p>
-                                                                                                                        <p>
-                                                                                                                                Works on this website that's supposed to be publicly accessible (don't try to get around my htaccess, don't crack my ssh, don't snoop on my email, etc) is public domain.  This does not include my projects and my git repos, see their LICENSE files for per-project information.
-                                                                                                                        <a href="https://stpeter.im/writings/essays/publicdomain.html">
-                                                                                                                                https://stpeter.im/writings/essays/publicdomain.html
-                                                                                                                        </a>
-                                                                                                                                is a good explanation on why people put stuff in the public domain.  However, you might want to see the GNU AGPL section on this page.
-                                                                                                                        </p>
-                                                                                                                </div>
-                                                                                                        </body>
-                                                                                                </html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<title>Andrew Yu</title>
+		<link rel="stylesheet" href="/plain.css" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<h1>Andrew Yu</h1>
+		<hr />
+		<div id="main">
+			<div id="nav">
+				<h2>Navigate around</h2>
+				<ul>
+					<li><a href="https://www.andrewyu.org">Personal site</a></li>
+					<li><a href="https://rfd.andrewyu.org" class="alert">Request for Discussions (RFDs)</a></li>
+					<li><a href="https://git.andrewyu.org" class="alert">Git repositories</a></li>
+					<li><a href="https://fcm.andrewyu.org" class="alert">Free Computing Movement</a></li>
+					<li><a href="https://libre.andrewyu.org" class="alert">Libre Society</a></li>
+					<li><a href="https://host.andrewyu.org" class="alert">Server guides</a></li>
+					<li><a href="https://users.andrewyu.org">Other users</a></li>
+					<li><a href="https://lib.andrewyu.org">Private file library</a></li>
+				</ul>
+			</div>
+		<hr />
+			<div id="campaign">
+				<p>It is our responsibility to spread <a href="https://fsf.org">free software</a>, <a href="https://fcm.andrewyu.org">free computing (one of the websites started by me :D)</a> and advocate for user freedom.  Please don't waste any chances to do so.</p>
+			</div>
+		<hr />
+			<div id="majornote">
+				<p>Most of my new articles are available at the Request for Discussions Website.  Older ones will be republished there.</p>
+			</div>
+		<hr />
+			<div id="ponder">
+				<h2>Help me ponder upon these questions</h2>
+				<p>These are questions that interest me.  Maybe you have ideas?</p>
+				<h3>A Lisp-like Operating System</h3>
+				<p>Anybody who has tried functional programming knows that Lisp and <a href="https://haskell.org">Haskell</a> are special and great programming languages.  Most Lispers and all Haskell programmers adhere to the functional style of programming, creating mathematically-provably-correct programs.  I love the fact that Haskell supports Monads well and that it's statically typed (having the debugger find your issues is much more comfortable than debugging mid-run, while it's true that <a href="https://ghc.haskell.org">GHC</a> has quite good debugging utilities.  On the other hand, Haskell and Common Lisp have so many pragmatics and syntax sugar.  Scheme (which I consider to be a dialect of Lisp) is much more uniform and symmetric (think of group theory) in syntax, but has bad support for lazy evaluation.</p>
+				<p>There are many modern operating systems, for example the BSDs, GNU+Linux, Plan 9, etc.  (Microsoft Windows and macOS don't count, they're nonfree.)   But security issues are discovered every year in each of them, even <a href="https://OpenBSD.org">OpenBSD</a>, which is considered the most secure operating system for general use.  A lot of this has to do with the programming language they're written in, C.</p>
+				<p>In C, you've got a heap of pointers, memory stacks, arrays, linked lists, structures, etc. that you all have to manage by yourself.  This leaves huge gaps for programmer error.  By contrast, it is possible to mathematically prove the correctness (or the lack thereof, though I only use &ldquo;Possible&rdquo; because of Godel Incompleteness) of a functional program.  This eases the work for programmers.</p>
+				<p>Most, if not all security issues in programs written in classical imperative programming languages are with bogus stacks, pointers, etc.  There are countless times when stack overflows are used in attacks.  By using functional languages, it just works!</p>
+				<p>There have been <a href="http://metamodular.com/Common-Lisp/lispos.html">great proposals by other people</a> on this ideea.  If you are into operating system development and programming in general, please read it, and share your thoughts with me.  If many people voice on this issue, I'll start an mailing list.</p>
+				<h3>What about a pure functional Lisp dialect, with monads and similar (Haskell) ideas?</h3>
+				<p>I love s-expressions, as they clearly represent the structure of a program, or even natural language.  They also allow for powerful macros, enabling some Lisp dialects to have continuations and other cool stuff.  Haskell, on the other hand, is purely functional, where things that involve side effects are usually implemented with Monads.  I'm looking for an implementation that combines these.</p>
+				<p><a href="https://shen-language.github.io">The Shen Language</a> seems interesting.</p>
+				<h3>What about a mathematical political system?</h3>
+				<p>A government too strong causes authoritarianism which may lead to non-democracies, while a government too weak causes the inability of the government to do anything with the slightest controversy (look at COVID handling).  Is there a mathematical way (say a function; this sounds like group theory, but I'm not sure) to compute, based all known information known about the bill/order/whatever being considered, if the government (I'm especially talking about the executive here) has the right to order that? I feel like this could be proved impossible due to incompleteness and unpredictability, but this needs further investigation.  This is the main problem in question of the Libre Society project, by the way.</p>
+			</div>
+		<hr />
+			<div id="quotes">
+				<h2>Quotes</h2>
+				<blockquote><p>Arguing that you don't care about the
+                right to privacy because you have nothing to hide is no
+                different from saying you don't care about free speech
+                because you have nothing to say. &mdash;Edward
+                Snowden</p></blockquote>
+			</div>
+		<hr />
+			<div id="me">
+				<h2>About me</h2>
+				<p>I am Andrew Yu.  My main fields of interest are philosophy (especially moral philosophy, and especially especially moral philosophy in technology), metamathematics, programming fundamentals and molecular biology.  I'm also a free software activist.</p>
+			</div>
+		<hr />
+			<div id="contact">
+				<h2>Contact</h2>
+				<p>There are many ways to contact me.  None of these require proprietary software.</p>
+				<ul>
+					<li>talk to me in real life (This method is preferred, if you know me in real life.);</li>
+					<li>mail <a href="mailto:andrew@andrewyu.org">andrew@andrewyu.org</a> (Emails are preferred for in-depth discussions.);</li>
+					<li>xmpp <a href="xmpp:andrew@andrewyu.org">andrew@andrewyu.org</a> (My OTR fingerprint is <code>D860F6CC FEF3D079 A6964AA3 86BD6A34 8F86E218</code> and my OpenPGP fingerprint is as below.  Use this for quick questions, or highly interactive discussions.).</li>
+					<li>irc <a href="irc://irc.andrewyu.org:6697/Andrew">Andrew</a> on <a href="https://irc.andrewyu.org">LibreIRC</a> (LibreIRC is an IRC network started by Andrew, myself, running Solanum IRCd and Atheme Services. Use this for quick questions, or highly interactive discussions.  Since talking on Internet Relay Chat requires people to be online at the same time, use a bouncer, or don't close your client, to ensure that my replies reach you.  Of course you can also give me another way to get to you that's persistent.);</li>
+					<li>irc <a href="irc://irc.libera.chat:6697/Andrew">Andrew</a> on <a href="https://libera.chat">Libera</a> (Libera is an IRC network popular among free software users, activists and developers.  Use this for quick questions, or highly interactive discussions.  Please note that for privacy purposes, you should use some type of encryption.  I am not affiliated with Libera and I don't run it in any way.  Of course, either be on there all the time or give me another way to contact you.).</li>
+				</ul>
+				<p>There are many ways <em>not</em> to contact me.</p>
+				<ul>
+					<li>WeChat is deprecated and unsupported.  I only keep an account for school and use Mojo-Weixin to relay it to IRC.  If you're also bothered by the mandatory usage of these software at school, sign <a href="https://my.fsf.org/give-students-userfreedom">the give students user freedom petition by the FSF</a>;</li>
+					<li><a href="https://www.fsf.org/fb"><img src="https://static.fsf.org/nosvn/not-fd.svg" height="26pt" alt="not f'd&mdash;you won't find me on Facebook" /></a>.</li>
+				</ul>
+			</div>
+		<hr />
+			<div id="pgp">
+				<h2>OpenPGP</h2>
+				<ul>
+					<li><a href="https://www.andrewyu.org/andrew-ecc.asc">My ECC key</a> is recommended;</li>
+					<li><a href="https://www.andrewyu.org/andrew.asc">My RSA key</a> is a fallback;</li>
+					<li><a href="https://www.andrewyu.org/allkeys.asc">My keyring for friends</a>;</li>
+					<li><a href="https://www.andrewyu.org/revocation.rev">The revocation of my old key</a>.</li>
+				</ul>
+				<p class="alert">Check if you've actually downloaded these keys from <code>andrewyu.org</code>.  Check the fingerprints with me elsewhere (email, IRC, in real life, etc) before trusting or signing it.</p>
+			</div>
+		<hr />
+			<div id="randlinks">
+				<h2>Random Links</h2>
+				<ul>
+					<li><a href="/favor.css">My favorite CSS to go with this Website</a>;</li>
+					<li><a href="https://fsf.org">The Free Software Foundation</a>;</li>
+					<li><a href="https://stallmansupport.org">Defend Richard Stallman</a>;</li>
+					<li><a href="https://based.cooking">A simple clean receipe site</a>;</li>
+					<li><a href="https://www.gnu.org/philosophy/surveillance-vs-democracy.html">Surveillance vs democracy</a>;</li>
+					<li><a href="https://www.theguardian.com/commentisfree/2022/jan/19/america-biden-trump-authoritarinism">America's authoritarinism</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<hr />
+		<div id="footer">
+            <p>Works hosted on this subdomain (<code>www.andrewyu.org</code>) with the HTTP protocol is under <a href="/cc0.txt">the CC0 public domain dedicator.</a></p>
+			<p>Works on this website that's supposed to be publicly accessible (don't try to get around my htaccess, don't crack my ssh, don't snoop on my email, etc) is public domain.  This does not include my projects and my git repos, see their LICENSE files for per-project information.  <a href="https://stpeter.im/writings/essays/publicdomain.html">https://stpeter.im/writings/essays/publicdomain.html</a> is a good explanation on why people put stuff in the public domain.  However, you might want to see the GNU AGPL section on this page.</p>
+		</div>
+	</body>
+</html>
