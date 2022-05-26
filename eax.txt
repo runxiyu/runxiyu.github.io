@@ -1,17 +1,17 @@
-General way to do syscalls:
+; General way to do syscalls:
 
-mov eax <syscall number as below>
-mov ebx arg
-mov ecx arg
-mov edx arg
-mov esx arg
-mov edi arg
+mov eax, <syscall number as below>
+mov ebx, arg
+mov ecx, arg
+mov edx, arg
+mov esx, arg
+mov edi, arg
 int 0x80
 
-man 2 <syscall name> for arguments stuff
+; man 2 <syscall name> will tell you arguments and extra information of
+; the syscalls
 
----
-
+; syscall name                syscall number
 restart_syscall               0
 exit                          1
 fork                          2
