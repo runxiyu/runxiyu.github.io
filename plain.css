@@ -1,1 +1,8 @@
-body {background-color: #F8F4E7; color: #552800;}                                                                                 a.link {color:#0000A0;}                                                                                                           a.visited {color: #A000A0;}                                                                                                       a.active {color: #00A000;}
+body {
+	background-color: #F8F4E7;
+	color: #552800;
+}
+
+a.link {color:#0000A0;}
+a.visited {color: #A000A0;}
+a.active {color: #00A000;}
