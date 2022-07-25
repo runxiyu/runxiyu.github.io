@@ -1,6 +1,8 @@
 body {
 	background-color: #F8F4E7;
 	color: #552800;
+	margin: auto;
+	max-width: 70em;
 }
 
 a.link {color:#0000A0;}
