@@ -3,8 +3,9 @@ body {
 	color: #552800;
 	margin: auto;
 	max-width: 60em;
+	width: 96%;
 }
 
-a.link {color:#0000A0;}
+a.link {color: #0000A0;}
 a.visited {color: #A000A0;}
 a.active {color: #00A000;}
