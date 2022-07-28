@@ -4,6 +4,21 @@ body {
 	text-align: justify;
 }
 
+h1 {
+	text-align: center;
+	font-weight: normal;
+}
+
+.indent p {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.indent p + p {
+	margin-top: 0;
+	padding-top: 0;
+	text-indent: 2em;
+}
+
 a.link {color: #0000A0;}
 a.visited {color: #A000A0;}
 a.active {color: #00A000;}
