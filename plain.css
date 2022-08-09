@@ -1,25 +1,6 @@
 body {
 	background-color: #F8F4E7;
 	color: #552800;
-	text-align: justify;
-	max-width: 55em;
-	margin: auto;
-	width:  96%;
-}
-
-h1 {
-	text-align: center;
-	font-weight: normal;
-}
-
-.indent p {
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-.indent p + p {
-	margin-top: 0;
-	padding-top: 0;
-	text-indent: 2em;
 }
 
 a.link {color: #0000A0;}
