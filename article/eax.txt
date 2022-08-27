@@ -1,3 +1,5 @@
+; The below only apply to Linux on IA32.
+
 ; General way to do syscalls:
 
 mov eax, <syscall number as below>
