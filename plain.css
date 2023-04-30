@@ -19,5 +19,15 @@ a.active {color: #00A000;}
 #nav li {display: inline; margin-right: 1em;}
 
 iframe {
-	border: 1px black solid;
+	border: 1px solid;
+}
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+table td {
+	border: 1px solid;
+	text-align: left;
 }
