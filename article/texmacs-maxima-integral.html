@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<title>TeXmacs Maxima Integrals</title>
+		<link rel="stylesheet" href="/plain.css" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<script id="MathJax-script" async src="https://static.andrewyu.org/mathjax/tex-svg.js"></script>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<h1>TeXmacs Maxima Integrals</h1>
+		<p>Article ID: 18</p>
+		<p>
+		I've been trying to get <a href="https://www.texmacs.org/">TeXmacs</a> with its <a href="https://maxima.sourceforge.io/">Maxima</a> <a href="https://www.texmacs.org/tmweb/documents/tutorials/maxima-tutorial/maxima-tutorial.en.html">plugin</a> to work.
+		</p>
+		<p>
+		Enabling the ``mathematical input'' mode in its interactive sessions I can use TeXmacs as a nice computer algebra system. However, an issue arises when I use integration.
+		</p>
+		<p>
+		If I enter \(\displaystyle\int x\,\mathrm{d}\,x\) with ``<code>\int &lt;enter&gt;x d&lt;tab&gt;&lt;tab&gt;x</code>'' (spaces here are actually typed in while the ``<code>&lt;tab&gt;</code>''s and ``<code>&lt;enter&gt;</code>''s are their respective keys), I get this idiosyncratic error:
+		</p>
+		<pre>incorrect syntax: 1 is not an infix operator
+integrate( x 1,
+	     ^</pre>
+		<p>
+		This seems to be a bug when TeXmacs is translating things into Maxima. Just replace the ``<code>&lt;tab&gt;</code>'' between the integrand and the ``\(\mathrm{d}\)'' with a multiplication operator entered by ``<code>*</code>''. For example, <code>\int &lt;enter&gt;x*d&lt;tab&gt;&lt;tab&gt;x</code> yields the correct result of \(\displaystyle\frac{x^2}{2}\) rather than the nonsensical error.
+		</p>
+		<p>
+		For reference, the source code of a demonstration document is included below in Scheme and XML-like (?) formats.
+		</p>
+		<pre>(document (TeXmacs "2.1.1") (style (tuple "generic" "maxima")) (body (document (session "maxima" "default" (document (unfolded-io-math (document (with "color" "red" (concat "(" (with "math-font-family" "rm" "%i") "8) "))) (document (concat (big "int") " x <mathd> x")) (document "" "incorrect syntax: 1 is not an infix operator" "integrate( x 1," "             ^")) (unfolded-io-math (document (with "color" "red" (concat "(" (with "math-font-family" "rm" "%i") "8) "))) (document (concat (big "int") "x*<mathd> x")) (document "" (concat " " (math (with "math-display" "true" (concat (text (with "font-family" "tt" "color" "red" (concat "(" (with "math-font-family" "rm" "%o8") ") "))) (frac (concat "x" (rsup "2")) "2"))))))))))) (initial (collection (associate "page-medium" "paper") (associate "preamble" "true") (associate "prog-scripts" "maxima"))))</pre>
+		<pre>&lt;TeXmacs|2.1.1&gt;
+
+&lt;style|&lt;tuple|generic|maxima&gt;&gt;
+
+&lt;\body&gt;
+  &lt;\session|maxima|default&gt;
+    &lt;\unfolded-io-math&gt;
+      &lt;with|color|red|(&lt;with|math-font-family|rm|%i&gt;8) &gt;
+    &lt;|unfolded-io-math&gt;
+      &lt;big|int&gt; x \&lt;mathd\&gt; x
+    &lt;|unfolded-io-math&gt;
+      \;
+
+      incorrect syntax: 1 is not an infix operator
+
+      integrate( x 1,
+
+      \ \ \ \ \ \ \ \ \ \ \ \ \ ^
+    &lt;/unfolded-io-math&gt;
+
+    &lt;\unfolded-io-math&gt;
+      &lt;with|color|red|(&lt;with|math-font-family|rm|%i&gt;8) &gt;
+    &lt;|unfolded-io-math&gt;
+      &lt;big|int&gt;x*\&lt;mathd\&gt; x
+    &lt;|unfolded-io-math&gt;
+      \;
+
+      \ &lt;math|&lt;with|math-display|true|&lt;text|&lt;with|font-family|tt|color|red|(&lt;with|math-font-family|rm|%o8&gt;)
+      &gt;&gt;&lt;frac|x&lt;rsup|2&gt;|2&gt;&gt;&gt;
+    &lt;/unfolded-io-math&gt;
+  &lt;/session&gt;
+&lt;/body&gt;
+
+&lt;\initial&gt;
+  &lt;\collection&gt;
+    &lt;associate|page-medium|paper&gt;
+    &lt;associate|preamble|false&gt;
+    &lt;associate|prog-scripts|maxima&gt;
+  &lt;/collection&gt;
+&lt;/initial&gt;</pre>
+		<div id="footer">
+			<hr />
+			<p><a href="/">Andrew Yu's Website</a></p>
+		</div>
+	</body>
+</html>
