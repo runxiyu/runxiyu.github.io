@@ -1,9 +1,10 @@
 @import "https://static.andrewyu.org/css/lmodern10.css";
+@import "https://static.andrewyu.org/css/fandol.css";
 
 body {
 	background-color: #F8F4E7;
 	color: #552800;
-	font-family: "Latin Modern Roman", serif;
+	font-family: "Latin Modern Roman", "FandolSong", serif;
 }
 
 .copyright {
