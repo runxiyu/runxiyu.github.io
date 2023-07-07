@@ -14,16 +14,16 @@
 		I've been trying to get <a href="https://www.texmacs.org/">TeXmacs</a> with its <a href="https://maxima.sourceforge.io/">Maxima</a> <a href="https://www.texmacs.org/tmweb/documents/tutorials/maxima-tutorial/maxima-tutorial.en.html">plugin</a> to work.
 		</p>
 		<p>
-		Enabling the &ldquo;mathematical input&rdquo; mode in its interactive sessions I can use TeXmacs as a nice computer algebra system. However, an issue arises when I use integration.
+		Enabling the ``mathematical input'' mode in its interactive sessions I can use TeXmacs as a nice computer algebra system. However, an issue arises when I use integration.
 		</p>
 		<p>
-		If I enter \(\displaystyle\int x\,\mathrm{d}\,x\) with &ldquo;<code>\int &lt;enter&gt;x d&lt;tab&gt;&lt;tab&gt;x</code>&rdquo; (spaces here are actually typed in while the &ldquo;<code>&lt;tab&gt;</code>&rdquo;s and &ldquo;<code>&lt;enter&gt;</code>&rdquo;s are their respective keys), I get this idiosyncratic error:
+		If I enter \(\displaystyle\int x\,\mathrm{d}\,x\) with ``<code>\int &lt;enter&gt;x d&lt;tab&gt;&lt;tab&gt;x</code>'' (spaces here are actually typed in while the ``<code>&lt;tab&gt;</code>''s and ``<code>&lt;enter&gt;</code>''s are their respective keys), I get this idiosyncratic error:
 		</p>
 		<pre>incorrect syntax: 1 is not an infix operator
 integrate( x 1,
 	     ^</pre>
 		<p>
-		This seems to be a bug when TeXmacs is translating things into Maxima. Just replace the &ldquo;<code>&lt;tab&gt;</code>&rdquo; between the integrand and the &ldquo;\(\mathrm{d}\)&rdquo; with a multiplication operator entered by &ldquo;<code>*</code>&rdquo;. For example, <code>\int &lt;enter&gt;x*d&lt;tab&gt;&lt;tab&gt;x</code> yields the correct result of \(\displaystyle\frac{x^2}{2}\) rather than the nonsensical error.
+		This seems to be a bug when TeXmacs is translating things into Maxima. Just replace the ``<code>&lt;tab&gt;</code>'' between the integrand and the ``\(\mathrm{d}\)'' with a multiplication operator entered by ``<code>*</code>''. For example, <code>\int &lt;enter&gt;x*d&lt;tab&gt;&lt;tab&gt;x</code> yields the correct result of \(\displaystyle\frac{x^2}{2}\) rather than the nonsensical error.
 		</p>
 		<p>
 		For reference, the source code of a demonstration document is included below in Scheme and XML-like (?) formats.
