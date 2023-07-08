@@ -1,0 +1,80 @@
+Subject: Affirmative Action
+From: Andrew Yu <andrew@andrewyu.org>
+Message-Id: <CTWUQHND92OE.31YJ2FM2GHPTB@andrewyu>
+Date: Sat, 08 Jul 2023 14:14:28 +0000
+Content-Type: text/plain; charset=UTF-8
+X-Mailer: aerc 0.14.0
+X-Article-ID: 21
+
+(Slightly modified for "publication")
+
+Here is my attempt at the Harvard/UNC affirmative action question,
+though I can't guarantee it's comprehensive, objective or developed, and
+the language here is deadly plain. Be aware that there's a fair bit of
+ethics, political philosophy and (minimal but still) US politics ahead.
+Also, since I'm Asian myself (of course, disadvantaged under the AA
+policies), perhaps I'm biased.
+
+Firstly, let me declare my unconventional "stance". I believe that
+affirmative action based on race is generally useless and may backfire;
+however if I were a supreme court justice, I would vote with the
+Liberals, to not interfere with the affirmative action policies of the
+universities.
+
+I'll start with why I believe that the court shouldn't interfere with
+the universities' policies. Harvard and UNC are private universities.
+They have their own ideals, and as long as they're not causing active
+harm to society (in my opinion, that'd be violating other people's
+negative liberty in the traditional interpretation by Isaiah Berlin—I am
+aware that there are paradoxes but it's the closest to a consistent
+theory of political philosophy that I can reach for now). Simply
+speaking, the students they admit is irrelevant to the government/state.
+If we consider public universities on the other hand, then sure. The
+government funds them, is supposed to set their goals and policies, and
+is responsible for their admissions and could rightfully implement
+policies that they see fit, but for private educational institutions, my
+"small government" mindset comes in.
+
+However, there are interesting arguments surrounding how "elite"
+universities such as Harvard, and to some extent UNC, have substantial
+social impact on society, as they are more or less a standard in
+defining tertiary education in the US and globally. Other educational
+institutions may follow their policies in attempts to bring themselves
+to the prestigious "standard" that elite institutions set, these elite
+universities are crucial in educational mobility, there might be
+potential public investment, etc. However I still intuitively think that
+the government shouldn't intervene, perhaps because of how in the US,
+court cases set precedents, and a precedent of such intervention would
+"allow" for government expansion and potential for the government to dip
+their feet into more private business. 
+
+Now I'll briefly argue why I believe that affirmative action based on
+race is generally useless and may backfire. There are three main reasons
+that I could think of for affirmative action, I'll describe my opinion
+on each, one by one.
+
+First, that affirmative action promotes diversity. I (personally) think
+that diversity is an insufficient reason to be potentially racially
+discriminating (people with the same academic capability may be
+rejected/admitted based on racial quotas, which may be considered a form
+of discrimination based on factors that they couldn't control).
+
+Second, that affirmative action adjusts for educational inequality. I
+haven't fact-checked this, but perhaps it's true that African-Americans,
+on average, live in poorer communities and have lesser access to good
+secondary education. Therefore their grades cannot fully reflect their
+academic potential, and universities admissions should compensate for
+that. Now aside from how this feels patronizing, race is no longer a
+good measure of "lack of educational resources due to financial
+situations/etc", with the existence of quite affluent African-American
+families. Affirmative action (if any) for
+educational-inequality-adjustment could be better implemented by looking
+at education and financial situations themselves, not race.
+
+Third, that affirmative action compensates for past wrongs. Having what
+people's ancestors do affect them negatively present-day feels awkward,
+although arguably people benefitting from the achievements of their
+ancestors means that they also need to take relevant responsibilities.
+
+Anyways, here are my thoughts… a bit incomplete but might be
+interesting. Cheers!
