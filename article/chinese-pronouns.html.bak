@@ -11,7 +11,7 @@
 		<p>Article ID: 23</p>
 <p>tl;dr: ``他'' uses the ``人'' (person) radical, and should cover all
 people, because not all people are male.</p>
-<p>In contemporary English, the traditional plural pronoun ``they'' is
+<p>In contemporary English, the traditional plaural pronoun ``they'' is
 often used as a gender-inclusive singular pronoun, alongside the
 feminine singular ``she'' and the masculine singular ``he''. However, there
 is no equivalent in Chinese. ``他'' is considered a masculine pronouns in
@@ -22,9 +22,9 @@ pronoun.</p>
 <p>Prior to the May Fourth Movement and the broader New Culture
 Movement, ``他'' was a generic pronoun for all entities, including people
 of any gender, and inanimate objects. In the movements’ efforts to
-``modernize'' the Chinese language and culture, a separate feminine
+``modernize'' the Chinese language and culture, a seperate feminine
 pronoun ``她'' was created by the poet and linguist 刘半农, becoming an
-established linguistic norm after the Chinese Civil War. (A separate
+established linguistic norm after the Chinese Civil War. (A seperate
 ``它'' was created for inanimate objects; however this has little
 relevance to the arguments in this article.)</p>
 <p>A distinct feminine pronoun ``她'' along with ``他'' being a masculine
@@ -35,8 +35,8 @@ marginalization of the feminine from the concept of personhood.</p>
 <p>When referring to a placeholder of unknown gender in contemporary
 English, singular they pronouns are often used, such as in ``someone left
 their laptop here''. Such colloquial conversations are generally
-unproblematic as all normative third-person pronouns in Mandarin sound
-the same: tā. However, in written contexts, many use ``他/她'' resembling
+aproblematic as all normative third-person pronouns in Mandarin sound
+the same: tā. However, in written contexts, many use ``他/她'' ressembling
 ``he/she''. Aside from how this reinforces gender binary and alienates
 women (see the next two paragraphs), it is visually unappealing (as
 half-width slashes look particularly distinct from full-width CJK
@@ -50,12 +50,12 @@ this article into a detailed discussion of non-binary gender, please
 read Leah Rowe’s article ``<a
 href="https://vimuser.org/pronouns.html">Better respect for non-binary
 people, in defense of human rights</a>'' if this concept seems
-unfamiliar.) The status quo of ``她'' being solely a feminine pronoun and
+unfamiliar.) The status quo of ``她'' being solely a femine pronoun and
 ``他'' being solely a masculine pronoun reinforces gender binary and
 leaves no gender-neutral/inclusive pronoun for non-binary people who
 would prefer such pronouns.</p>
 <p>The more fundamental issue with ``他'' as a masculine pronoun lies in
-its character composition and etymology. ``他'' is a compound character
+its characater composition and etymology. ``他'' is a compound character
 consisting of a ``人'' (person) radical and ``也'', while ``她'' consists of a
 ``女'' (female) radical and ``也''. Limiting ``他'' as a male pronoun assumes
 the male gender as dominant in ``people'', and marginalizes other genders,
@@ -65,18 +65,10 @@ subset of what used to be covered by ``他''. I believe that a character’s
 composition should not be deceptive to its meaning, and therefore, the
 ``他'' with the ``人'' radical should describe any person, not just any male
 person.</p>
-<p>While I believe that ``他'' should be truly gender inclusive, its current
-masculine standing does make it similar to
-<a href="https://en.wikipedia.org/wiki/Gender_neutrality_in_languages_with_gendered_third-person_pronouns#Generic_he">Generic he</a>
-to some extent. I dislike generic he as it reflects bias towards men, but
-an inclusive ``他'' does carry these risks. Therefore I propose  that
-those who prefer a unique masculine pronoun may choose to use one
-with a ``男'' (male) radical instead. While ``男也'' (read that as one character) has not been given a
-Unicode code-point yet, I find this solution to be much more ideal than
-stereotypical generalizations with ``他''.</p>
-<p>
-Please give me some of your thoughts.
-</p>
+<p>Those who prefer a unique masculine pronoun may choose to use one
+with a ``男'' (male) radical instead. While ``男也'' has not been given a
+unicode code-point yet, I find this solution to be much more ideal than
+stereotypical generalizationis with ``他''.</p>
 		<div id="footer">
 			<hr />
 			<p><a href="/">Runxi Yu's Website</a></p>
