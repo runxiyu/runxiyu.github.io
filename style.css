@@ -1,11 +1,12 @@
-body {
-	/* background-color: #F8F4E7; */
-	/* color: #552800; */
+html {
 	font-family: sans-serif;
 	max-width: 50em;
 	margin: 0 auto;
 	line-height: 1.2;
-	padding: 0 1rem;
+}
+
+body {
+	margin: 3px;
 }
 
 .copyright {
