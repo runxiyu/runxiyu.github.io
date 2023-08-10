@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<title>Forge Workflows</title>
+		<link rel="stylesheet" href="/style.css" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<h1>Forge Workflows</h1>
+		<p>Article ID: 24</p>
+		<p>I generally use <a href="https://git.andrewyu.org/">my own Git server</a> for my projects. I also use my <a href="https://sr.ht/~runxiyu">sr.ht account</a> for <a href="https://todo.sr.ht/~runxiyu">issue tracking</a> and <a href="https://lists.sr.ht/~runxiyu">mailing lists</a>, and <a href="https://git.sr.ht/~runxiyu">their Git</a> for some projects too.</p>
+		<p>Regardless of whether I'm using my own infrastructure with plain Cgit and plain mailing lists (except that my mailing list manager is slightly broken for now), or the slightly better-integrated environment sourcehut provides, a contributor who wishes to submit some of their commits may simply do the following with <a href="https://git-send-email.io">git-send-email</a>:</p>
+		<ol>
+			<li>Configure git-send-email (only once!)</li>
+			<li>Clone the repository to a local directory</li>
+			<li>Make some changes and commit</li>
+			<li><code>git send-email HEAD^ --to='~runxiyu/public-inbox@lists.sr.ht'</code> or something similar</li>
+		</ol>
+		<p>This is much easier, imo, than the pull-request workflow popularized by GitHub (which is proprietary by the way) and similar forges:</p>
+		<ol>
+			<li>Register an account on the forge (once per forge)</li>
+			<li>Click &ldquo;fork&rdquo; on the repo's Web interface</li>
+			<li>Clone the fork to a local directory</li>
+			<li>Make some changes and commit</li>
+			<li>Push</li>
+			<li>Go back to the Web interface to create a PR (which often involves clicking at least three buttons)</li>
+			<li>Delete your redundent fork once the PR is merged and your repo is not really useful anymore</li>
+		</ol>
+		<p>Why do certain people hate on sourcehut? Really convenient workflow IMO.</p>
+		<div id="footer">
+			<hr />
+			<p><a href="/">Runxi Yu's Website</a></p>
+			<p>Unless otherwise specified with the “<span class="copyright">copyright</span>” HTML/CSS class, works hosted on this subdomain (<code>www.andrewyu.org</code>) served with the HTTP(S) protocol is available under <a href="https://www.andrewyu.org/note/pubdom.html">Runxi Yu's Public Domain Dedication</a>.</p>
+		</div>
+	</body>
+</html>
