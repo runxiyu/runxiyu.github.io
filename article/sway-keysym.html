@@ -36,7 +36,7 @@ xkb_symbols "basic" { // leave "basic" in-tact unless you know what you're doing
     key &lt;CAPS&gt; { [ Shift_L, Shift_L, Shift_L, Shift_L ] };
 };</pre>
 		<p>
-		Note that here, the “<code>key</code>” lines are in the form <code>key &lt;X&gt; { [ A, B, C, D ] } ;</code>, where “<code>X</code>” is the keycode symbolic name of the physical key you want to press. In my case, it is <code>CAPS</code>. Check <code>/usr/share/X11/xkb/symbols/pc</code> and <code>/usr/share/X11/xkb/symbols/latin</code>, or the relevant files for your keyboard configuration, to look up the keycode symbolic name from the name you're used to. (Looking up <code>Shift_L</code> in <code>symbols/pc</code> gets you to <code>LFSH</code>, which is what you would use in place of “<code>X</code>”. <code>A</code> is triggered when <code>X</code> is pressed alone, <code>B</code> when it's pressd with Shift, <code>C</code> with AltGr, and <code>D</code> with both AltGr and Shift.
+		Note that here, the "<code>key</code>" lines are in the form <code>key &lt;X&gt; { [ A, B, C, D ] } ;</code>, where "<code>X</code>" is the keycode symbolic name of the physical key you want to press. In my case, it is <code>CAPS</code>. Check <code>/usr/share/X11/xkb/symbols/pc</code> and <code>/usr/share/X11/xkb/symbols/latin</code>, or the relevant files for your keyboard configuration, to look up the keycode symbolic name from the name you're used to. (Looking up <code>Shift_L</code> in <code>symbols/pc</code> gets you to <code>LFSH</code>, which is what you would use in place of "<code>X</code>". <code>A</code> is triggered when <code>X</code> is pressed alone, <code>B</code> when it's pressd with Shift, <code>C</code> with AltGr, and <code>D</code> with both AltGr and Shift.
 		</p>
 		<p>
 		<b><code>$HOME/.config/sway/config</code></b>
@@ -45,7 +45,7 @@ xkb_symbols "basic" { // leave "basic" in-tact unless you know what you're doing
     xkb_layout "gbcustom"
 }</pre>
 		<p>
-		Of course, replace “<code>1:1:AT_Translated_Set_2_keyboard</code>” with your actual keyboard identifier listed in <code>swaymsg -t get_inputs</code>. And reload Sway.
+		Of course, replace "<code>1:1:AT_Translated_Set_2_keyboard</code>" with your actual keyboard identifier listed in <code>swaymsg -t get_inputs</code>. And reload Sway.
 		</p>
 		<p>
 		There might be better ways to do so, but I've got this to work. For these unusual setups, it is a bit complicated and not as straightforward as adding a <code>xmondmap</code> line to <code>.xinitrc</code>. Hopefully things would get better as Wayland matures.
@@ -86,7 +86,7 @@ xkb_symbols "caps_lshift" {
 		<div id="footer">
 			<hr />
 			<p><a href="/">Runxi Yu's Website</a></p>
-			<p>Unless otherwise specified with the “<span class="copyright">copyright</span>” HTML/CSS class, works hosted on this subdomain (<code>www.andrewyu.org</code>) served with the HTTP(S) protocol is available under <a href="https://www.andrewyu.org/note/pubdom.html">Runxi Yu's Public Domain Dedication</a>.</p>
+			<p>Unless otherwise specified with the "<span class="copyright">copyright</span>" HTML/CSS class, works hosted on this subdomain (<code>www.andrewyu.org</code>) served with the HTTP(S) protocol is available under <a href="https://www.andrewyu.org/note/pubdom.html">Runxi Yu's Public Domain Dedication</a>.</p>
 		</div>
 	</body>
 </html>

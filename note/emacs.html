@@ -9,7 +9,7 @@
 	<body>
 		<h1>A Few Problems with Emacs</h1>
 		<p>
-		<a href="https://emacs.org/">Emacs</a> is supposedly a text editor but is more of a integrated computing environment.  At its core is an Emacs Lisp interpreter and a text and buffer-oriented set of conventions that Emacs Lisp code follows.  The “default”/“standard” build of Emacs contains a World Wide Web browser, newsreader, electronic mail client, Internet Relay Chat client, a few games, and overall a ton of stuff that I do not use, need or want in my environment.  Therefore I use a minimal-ish custom build (i.e. simply leaving stuff out during <code>./configure</code>, which makes me feel a bit better.
+		<a href="https://emacs.org/">Emacs</a> is supposedly a text editor but is more of a integrated computing environment.  At its core is an Emacs Lisp interpreter and a text and buffer-oriented set of conventions that Emacs Lisp code follows.  The "default"/"standard" build of Emacs contains a World Wide Web browser, newsreader, electronic mail client, Internet Relay Chat client, a few games, and overall a ton of stuff that I do not use, need or want in my environment.  Therefore I use a minimal-ish custom build (i.e. simply leaving stuff out during <code>./configure</code>, which makes me feel a bit better.
 		</p>
 		<p id="space-based-alignment">
 	        One problem that I've recently noticed with Emacs is the tendency to use a set amount of spaces, expecting a monospace font, to align items across a buffer.  For example, when <code>:tags</code> are used with <code>org-agenda</code>, the agenda page aligns the tags to the right of the page with spaces precalculated from the window size.  But when we have double-width unicode characters, for example Chinese characters in the mix, or if we are using a variable-width Latin font, the alignment is completely screwed up.  Resizing the window also doesn't update the wrapping and alignment of items inside.  Emacs's text buffer-centric design makes it really hard to do otherwise.
@@ -20,7 +20,7 @@
 		<div id="footer">
 			<hr />
 			<p><a href="/">Runxi Yu's Website</a></p>
-			<p>Unless otherwise specified with the “<span class="copyright">copyright</span>” HTML/CSS class, works hosted on this subdomain (<code>www.andrewyu.org</code>) served with the HTTP(S) protocol is available under <a href="https://www.andrewyu.org/note/pubdom.html">Runxi Yu's Public Domain Dedication</a>.</p>
+			<p>Unless otherwise specified with the "<span class="copyright">copyright</span>" HTML/CSS class, works hosted on this subdomain (<code>www.andrewyu.org</code>) served with the HTTP(S) protocol is available under <a href="https://www.andrewyu.org/note/pubdom.html">Runxi Yu's Public Domain Dedication</a>.</p>
 		</div>
 	</body>
 </html>
