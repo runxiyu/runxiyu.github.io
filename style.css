@@ -3,6 +3,15 @@ html {
 	max-width: 50em;
 	margin: 0 auto;
 	line-height: 1.2;
+	border-color: black;
+	color: black;
+	background-color: white;
+}
+
+hr {
+	background-color: black;
+	border-width: 0;
+	height: 1px;
 }
 
 body {
