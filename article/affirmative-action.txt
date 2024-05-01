@@ -11,6 +11,8 @@ X-Article-ID: 21
 (Actually, no, this is just insanely badly written. I'll rewrite it
 sometime.)
 
+(Update: check https://git.runxiyu.org/runxiyu/philo.git/plain/affirmative-action/)
+
 Here is my attempt at the Harvard/UNC affirmative action question,
 though I can't guarantee it's comprehensive, objective or developed, and
 the language here is deadly plain. Be aware that there's a fair bit of
