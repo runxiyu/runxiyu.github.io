@@ -84,7 +84,7 @@ body {
   justify-items:center;
   margin:var(--page-margin);
   font-size:var(--base-font-size);
-  font-family:"Segoe UI",ui-sans-serif,system-ui,sans-serif;
+  font-family:ui-sans-serif,system-ui,sans-serif;
   line-height:var(--linespread);
   hyphens:auto;
   font-variant-ligatures:common-ligatures contextual;
@@ -124,8 +124,10 @@ h1 {
   margin-bottom:0;
   margin-top:1rem;
   font-size:max(var(--heading-base),var(--base-font-size));
-  padding-bottom:.1em;
-  border-bottom:1px solid var(--color-faded)
+}
+header {
+  padding-bottom:0.28rem;
+  border-bottom:1px solid var(--color-faded);
 }
 h2 {
   font-size:max(calc(var(--heading-base)*var(--heading-ratio)),var(--base-font-size))
@@ -170,7 +172,7 @@ p {
   position:relative
 }
 code {
-  font-family:ui-monospace,Consolas,Inconsolata,"Roboto Mono","Fira Mono",monospace;
+  font-family:ui-monospace,monospace;
   overflow-wrap:anywhere;
   hyphens:none
 }
@@ -207,6 +209,20 @@ footer ul li:first-of-type {
   margin-right:auto
 }
 footer li:not(:last-child):not(:first-child)::after {
+  content:" • "
+}
+nav ul {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin:0;
+  padding:0
+}
+nav ul li {
+  display:inline;
+  list-style-type:none
+}
+nav li:not(:last-child)::after {
   content:" • "
 }
 abbr {
@@ -265,8 +281,7 @@ figure {
   justify-content:center;
   flex-direction:column
 }
-figcaption,
-nav ul ul ul li {
+figcaption {
   font-style:italic
 }
 @media (min-width:70em) {
@@ -289,26 +304,19 @@ nav ul ul ul li {
     margin-left:3em
   }
 }
-nav li {
-  list-style:none
-}
-nav>ul,
 ul.inline {
   padding-left:0
 }
-nav ul ul ul li,
 ul.inline>li {
   display:inline;
   list-style-type:none
 }
 @media (min-width:55rem) {
-  nav ul ul ul li,
   ul.inline>li {
     white-space:nowrap
   }
 }
-:is(nav ul ul ul li,
-ul.inline>li):not(:first-child)::before {
+:is(ul.inline>li):not(:first-child)::before {
   content:" • "
 }
 dd>p {
@@ -318,11 +326,11 @@ dl.bold>dt,
 summary {
   font-weight:500
 }
-header p {
+/* header p {
   font-style:italic;
   position:absolute;
   right:var(--margin-width)
-}
+} */
 summary {
   list-style-position:outside
 }
@@ -345,3 +353,6 @@ summary {
   list-style-type: disclosure-open;
 }
 
+nav {
+  text-align: center;
+}
