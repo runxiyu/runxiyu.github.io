@@ -1,0 +1,49 @@
+html {
+	font-family: sans-serif;
+	max-width: 50em;
+	margin: 0 auto;
+	line-height: 1.2;
+	border-color: black;
+	color: black;
+	background-color: white;
+}
+
+hr {
+	background-color: black;
+	border-width: 0;
+	height: 1px;
+}
+
+body {
+	margin: 0.7em;
+}
+
+.copyright {
+	color: #002855;
+	background-color: #E7F4F8;
+	border: solid 1px #002855;
+	padding: 2px;
+}
+
+a.link {color: #0000A0;}
+a.visited {color: #A000A0;}
+a.active {color: #00A000;}
+
+#nav {list-style-type: none; padding: 0; margin: 0;}
+#nav li {display: inline; margin-right: 1em;}
+
+iframe {
+	border: 1px solid;
+}
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+table td {
+	border: 1px solid;
+	text-align: left;
+	padding: 0px 3.5px;
+	height: 1.25rem;
+}
