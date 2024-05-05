@@ -128,6 +128,7 @@ h1 {
 header {
   padding-bottom:0.28rem;
   border-bottom:1px solid var(--color-faded);
+  margin-bottom:var(--margin-big);
 }
 h2 {
   font-size:max(calc(var(--heading-base)*var(--heading-ratio)),var(--base-font-size))
