@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Yu;Runxi;;;
+FN:Runxi Yu
+ORG:YK Pao School;
+item1.EMAIL;type=INTERNET;type=pref:s22537@stu.ykpaoschool.cn
+item1.X-ABLabel:_$!<School>!$_
+EMAIL;type=INTERNET;type=HOME:me@runxiyu.org
+item2.URL;type=pref:https://runxiyu.org
+item2.X-ABLabel:_$!<Web>!$_
+BDAY:2008-04-04
+END:VCARD
