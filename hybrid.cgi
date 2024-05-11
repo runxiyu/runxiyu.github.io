@@ -78,7 +78,7 @@ def fbw() -> None:
     sys.stdout.write("Content-Type: text/plain\r\n")
     sys.stdout.write("\r\n")
     fn = os.path.basename(file.filename)
-    open(os.path.join("fb", fn), 'wb').write(file.file.read())
+    open(os.path.join(FBDIR, fn), 'wb').write(file.file.read())
     sys.stdout.write("Done.")
     exit(0)
 
