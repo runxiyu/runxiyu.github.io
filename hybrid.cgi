@@ -49,4 +49,4 @@ else:
     sys.stdout.write("Content-Type: text/plain\r\n")
     sys.stdout.write("Status: 404\r\n")
     sys.stdout.write("\r\n")
-    sys.stdout.write("404 Not Found")
+    sys.stdout.write("I don't understand what you're trying to do!")
