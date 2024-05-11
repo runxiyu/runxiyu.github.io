@@ -4,6 +4,7 @@ import sys
 import os
 import cgi
 import pathlib
+import shutil
 
 FBDIR="/srv/fb"
 
@@ -75,6 +76,13 @@ def fbw() -> None:
         sys.stdout.write("\r\n")
         sys.stdout.write("Too large!")
         exit(0)
+    if shutil.disk_usage("/srv/fb").free < 5*(1024**3):
+        sys.stdout.write("Status: 500\r\n")
+        sys.stdout.write("Content-Type: text/plain\r\n")
+        sys.stdout.write("\r\n")
+        sys.stdout.write("I don't have enough space, sorry!")
+        exit(0)
+
     sys.stdout.write("Status: 200\r\n")
     sys.stdout.write("Content-Type: text/plain\r\n")
     sys.stdout.write("\r\n")
