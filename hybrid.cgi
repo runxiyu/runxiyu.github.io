@@ -2,12 +2,16 @@
 
 import sys
 import os
+import cgi
+import cgitb
+cgitb.enable()
 
 CONTENT_LENGTH = os.environ["CONTENT_LENGTH"]
 CONTENT_TYPE = os.environ["CONTENT_TYPE"]
 DOCUMENT_ROOT = os.environ["DOCUMENT_ROOT"]
 PATH_INFO = os.environ["PATH_INFO"]
 DOCUMENT_URI = os.environ["DOCUMENT_URI"]
+REQUEST_METHOD = os.environ["REQUEST_METHOD"]
 
 # FCGI_ROLE = os.environ["FCGI_ROLE"]
 # GATEWAY_INTERFACE = os.environ["GATEWAY_INTERFACE"]
@@ -30,7 +34,6 @@ DOCUMENT_URI = os.environ["DOCUMENT_URI"]
 # REMOTE_ADDR = os.environ["REMOTE_ADDR"]
 # REMOTE_PORT = os.environ["REMOTE_PORT"]
 # REMOTE_USER = os.environ["REMOTE_USER"]
-# REQUEST_METHOD = os.environ["REQUEST_METHOD"]
 # REQUEST_SCHEME = os.environ["REQUEST_SCHEME"]
 # REQUEST_URI = os.environ["REQUEST_URI"]
 # SCRIPT_FILENAME = os.environ["SCRIPT_FILENAME"]
@@ -41,10 +44,51 @@ DOCUMENT_URI = os.environ["DOCUMENT_URI"]
 # SERVER_PROTOCOL = os.environ["SERVER_PROTOCOL"]
 # SERVER_SOFTWARE = os.environ["SERVER_SOFTWARE"]
 
+
+def fbw() -> None:
+    if not REQUEST_METHOD == "POST":
+        sys.stdout.write("Content-Type: text/plain\r\n")
+        sys.stdout.write("Status: 400\r\n")
+        sys.stdout.write("\r\n")
+        sys.stdout.write("This endpoint does not support any method other than POST.")
+        exit(0)
+
+    form = cgi.FieldStorage()
+    try:
+        file = form["file"]
+    except KeyError:
+        sys.stdout.write("Status: 400\r\n")
+        sys.stdout.write("Content-Type: text/plain\r\n")
+        sys.stdout.write("\r\n")
+        sys.stdout.write("You haven't provided me a file.")
+        exit(0)
+    if not file.filename:
+        sys.stdout.write("Status: 400\r\n")
+        sys.stdout.write("Content-Type: text/plain\r\n")
+        sys.stdout.write("\r\n")
+        sys.stdout.write("File doesn't have a filename... that's strange.")
+        exit(0)
+    if int(CONTENT_LENGTH) >= 50000:
+        sys.stdout.write("Status: 413\r\n")
+        sys.stdout.write("Content-Type: text/plain\r\n")
+        sys.stdout.write("\r\n")
+        sys.stdout.write("Too large!")
+        exit(0)
+    sys.stdout.write("Status: 200\r\n")
+    sys.stdout.write("Content-Type: text/plain\r\n")
+    sys.stdout.write("\r\n")
+    fn = os.path.basename(file.filename)
+    open(os.path.join("fb", fn), 'wb').write(file.file.read())
+    sys.stdout.write("Done.")
+    exit(0)
+
+
 if PATH_INFO == "/hybrid/":
     sys.stdout.write("Content-Type: text/plain\r\n")
     sys.stdout.write("\r\n")
-    print("Root")
+    print("Okay... so?")
+elif PATH_INFO == "/hybrid/fb":
+    fbw()
 else:
     sys.stdout.write("Content-Type: text/plain\r\n")
     sys.stdout.write("Status: 404\r\n")
