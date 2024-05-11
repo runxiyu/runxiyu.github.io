@@ -7,6 +7,7 @@ import os
 import cgi
 import pathlib
 import shutil
+import smtplib
 
 FBDIR="/srv/fb"
 
@@ -90,7 +91,14 @@ def fbw() -> None:
     sys.stdout.write("\r\n")
     fn = os.path.basename(file.filename)
     open(os.path.join(FBDIR, fn), 'wb').write(file.file.read())
-    sys.stdout.write("Done.")
+    msg = """Subject: New file upload\r\nTo: me@runxiyu.org\r\nFrom: www-data@runxiyu.org\r\n\r\nA new file upload is available at:\n\n%s""" % os.path.join(FBDIR, fn)
+    try:
+        server = smtplib.SMTP("localhost")
+        server.sendmail("www-data@runxiyu.org", ["me@runxiyu.org"], msg)
+        server.quit()
+    except Exception:
+        sys.stdout.write("WARNING: Email error. Email not sent.\n")
+    sys.stdout.write("Done uploading.")
     exit(0)
 
 
