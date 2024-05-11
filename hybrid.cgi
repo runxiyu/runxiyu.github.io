@@ -3,8 +3,9 @@
 import sys
 import os
 import cgi
-import cgitb
-cgitb.enable()
+import pathlib
+
+FBDIR="/srv/fb"
 
 CONTENT_LENGTH = os.environ["CONTENT_LENGTH"]
 CONTENT_TYPE = os.environ["CONTENT_TYPE"]
