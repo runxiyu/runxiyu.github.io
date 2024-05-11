@@ -3,15 +3,6 @@
 import sys
 import os
 
-
-PWD = os.environ["PWD"]
-USER = os.environ["USER"]
-HOME = os.environ["HOME"]
-LANG = os.environ["LANG"]
-PATH = os.environ["PATH"]
-FCGIWRAP_PID = os.environ["SYSTEMD_EXEC_PID"]
-DAEMON_OPTS = os.environ["DAEMON_OPTS"]
-
 CONTENT_LENGTH = os.environ["CONTENT_LENGTH"]
 CONTENT_TYPE = os.environ["CONTENT_TYPE"]
 DOCUMENT_ROOT = os.environ["DOCUMENT_ROOT"]
