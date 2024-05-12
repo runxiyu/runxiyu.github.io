@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+print("Status: 403\r")
+print("Content-Type: text/plain\r\n\r")
+print("HYBRID is currently unavailable.")
+exit(0)
+
 # TODO: Check if file exists
 
 import sys
