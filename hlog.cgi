@@ -2,7 +2,7 @@
 
 printf 'Content-Type: text/plain\r\n\r\n'
 
-ls -l /srv/hlog/runxiyu.hlog
+TZ='Asia/Shanghai' ls --time-style '+%Y-%m-%d %H:%M:%S %Z' -l /srv/hlog/runxiyu.hlog
 
 printf '\n'
 
