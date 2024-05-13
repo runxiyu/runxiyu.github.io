@@ -18,10 +18,11 @@ cat << EOF
 <body>
 <header>
     <h1>Runxi Yu's Hyperlog</h1>
-    <p>
+    <p style="font-style:italic;position:absolute;right:var(--margin-width);">
 EOF
 
 TZ='Asia/Shanghai' date -r /srv/hlog/runxiyu.hlog '+%Y-%m-%d %H:%M:%S %Z'
+
 
 cat << EOF
     </p>
