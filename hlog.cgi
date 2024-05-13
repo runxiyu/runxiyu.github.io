@@ -18,14 +18,17 @@ cat << EOF
 <body>
 <header>
     <h1>Runxi Yu's Hyperlog</h1>
+    <p>
+EOF
+
+TZ='Asia/Shanghai' date -r /srv/hlog/runxiyu.hlog '+%Y-%m-%d %H:%M:%S %Z'
+
+cat << EOF
+    </p>
 </header>
 <article>
 <pre>
 EOF
-TZ='Asia/Shanghai' ls --time-style '+%Y-%m-%d %H:%M:%S %Z' -l /srv/hlog/runxiyu.hlog
-printf '</pre>'
-
-printf '<pre>'
 sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g' /srv/hlog/runxiyu.hlog
 cat << EOF
 </pre>
