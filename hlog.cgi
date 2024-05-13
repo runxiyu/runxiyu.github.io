@@ -1,9 +1,42 @@
 #!/bin/sh
 
-printf 'Content-Type: text/plain\r\n\r\n'
+printf 'Content-Type: text/html\r\n\r\n'
 
+
+cat << EOF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Runxi Yu's Hyperlog</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" sizes="any" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta name="theme-color" content="#241504" />
+    <meta name="color-scheme" content="light dark">
+</head>
+<body>
+<header>
+    <h1>Runxi Yu's Hyperlog</h1>
+</header>
+<article>
+<pre>
+EOF
 TZ='Asia/Shanghai' ls --time-style '+%Y-%m-%d %H:%M:%S %Z' -l /srv/hlog/runxiyu.hlog
+printf '</pre>'
 
-printf '\n'
-
-cat /srv/hlog/runxiyu.hlog
+printf '<pre>'
+sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g' /srv/hlog/runxiyu.hlog
+cat << EOF
+</pre>
+</article>
+<footer>
+    <ul role="list">
+        <li><a href="./">Home</a></li>
+        <li>Runxi Yu</li>
+        <li><a rel="license" href="./pubdom.html">Public Domain</a></li>
+    </ul>
+</footer>
+</body>
+</html>
+EOF
