@@ -1,14 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-	<head>
-		<title>The Old Web Was Better</title>
-		<link rel="stylesheet" href="/oldstyle.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<meta charset="utf-8" />
-	</head>
-	<body class="indent">
-		<h1>The Old Web Was Better</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="./style.css" />
+	<title>The Old Web Was Better</title>
+	<link rel="icon" href="./favicon.ico" sizes="any" />
+	<!--link rel="icon" href="./icon.svg" type="image/svg+xml" / -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#241504" />
+	<meta name="color-scheme" content="light dark">
+
+</head>
+<body>
+<header>
+	<h1>The Old Web Was Better</h1>
+</header>
+
+<article>
 		
 		<p>
 		When I go to an average "modern" World Wide Web site with the default configuration of Lynx, a wonderful plain text Web browser, I am usually greeted with things like <code>example.com cookie: some jibberish Allow? (Y/N/Always/neVer)</code> for which I'd press V a couple times.  Then, I would press C-f or page-down a couple times to scroll past a giant navigation bar full of nested lists, a few HTML login forms, multiple search bars.  Then I'd see the actual text of the article I'm looking for.  Or sometimes, the site would show "Please enable JavaScript to view this page." or some Cloudflare prompt saying that I need to enable JavaScript to solve a proprietary CAPTCHA to view the page because they have detected "unusual activity from my network".  Or I would be met with a blank page.  If I decide to visit the modern Web with a "normal" Web browser such as Firefox or Chromium, with a default install, I'd get a ten-megabyte load of a bunch of fancy advertisements at the top of the page, a giant navigation bar that's really colorful to distract me from what I actually want to see, some pop-ups wanting me to fill in my email address to sign up for their newsletter (which as people say would usually be weekly HTML email spam), flashy advertisements on the side bar, and when I finally scrolled past the header part of the page, a few hasty paragraphs with large paragraph separations unreadably wrapped in a narrow column.  All to display a few kilobytes of actual text, and rarely a few hundred kilobytes of useful images.
@@ -28,10 +36,14 @@
 		<p>
 		The same applies to the Internet more generally.  Don't send huge, clunky HTML emails.  Simple chat protocols like IRC.  Whatever.
 		</p>
-		<div id="footer">
-			<hr />
-			<p><a href="/">Runxi Yu's Website</a></p>
-			
-		</div>
-	</body>
+</article>
+
+<footer>
+	<ul role="list">
+		<li><a href="./">Home</a></li>
+		<li>Runxi Yu</li>
+		<li><a rel="license" href="./pubdom.html">Public Domain</a></li>
+	</ul>
+</footer>
+</body>
 </html>

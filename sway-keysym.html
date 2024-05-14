@@ -1,15 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-	<head>
-		<title>Sway keysym</title>
-		<link rel="stylesheet" href="/oldstyle.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<meta charset="utf-8" />
-	</head>
-	<body>
-		<h1>Sway keysym</h1>
-		
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Sway keysym</title>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="icon" href="./favicon.ico" sizes="any" />
+	<!--link rel="icon" href="./icon.svg" type="image/svg+xml" / -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#241504" />
+	<meta name="color-scheme" content="light dark">
+
+</head>
+<body>
+<header>
+	<h1>Sway keysym</h1>
+</header>
+
+<article>
 		<p>
 		Under the <a href="https://swaywm.org/">Sway</a> Wayland compositor, we could set set <code>xkb_layout</code> and <code>xkb_options</code> for keyboards in order to do weird key mapping related things. Many people use <code>caps:ctrl_modifier</code> and <code>caps:escape</code> in <code>xkb_options</code> (see <a href="https://man.openbsd.org/xkeyboard-config">xkeyboard-config(7)</a> for other options) to make Caps Lock function as an extra Ctrl or Esc key.
 		</p>
@@ -83,10 +90,14 @@ xkb_symbols "caps_lshift" {
     xkb_layout "gb"
     xkb_options "custom:caps_lshift"
 }</pre>
-		<div id="footer">
-			<hr />
-			<p><a href="/">Runxi Yu's Website</a></p>
-			
-		</div>
-	</body>
+</article>
+
+<footer>
+	<ul role="list">
+		<li><a href="./">Home</a></li>
+		<li>Runxi Yu</li>
+		<li><a rel="license" href="./pubdom.html">Public Domain</a></li>
+	</ul>
+</footer>
+</body>
 </html>
