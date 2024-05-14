@@ -28,7 +28,7 @@ cat << EOF
     </p>
 </header>
 <article>
-<pre>
+<pre style="margin-top: 3rem;">
 EOF
 sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g' /srv/hlog/runxiyu.hlog
 cat << EOF
