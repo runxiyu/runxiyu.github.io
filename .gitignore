@@ -1,5 +1,4 @@
-/pub
 *~
 .*.swp
 #*#
-*.org
+.mypy_cache
