@@ -357,3 +357,7 @@ summary {
 nav {
   text-align: center;
 }
+
+article li + li {
+  margin-top: 0.5rem;
+}
