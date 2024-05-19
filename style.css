@@ -70,7 +70,7 @@ html {
 a:link,
 a:visited {
   color:var(--color-link);
-  text-decoration:none
+  /* text-decoration:none */
 }
 a:visited {
   color:var(--color-link-followed)
