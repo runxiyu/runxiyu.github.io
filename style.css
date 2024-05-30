@@ -71,6 +71,7 @@ a:link,
 a:visited {
   color:var(--color-link);
   /* text-decoration:none */
+  text-decoration-color:lightgrey;
 }
 a:visited {
   color:var(--color-link-followed)
