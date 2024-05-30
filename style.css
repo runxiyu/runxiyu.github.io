@@ -77,7 +77,8 @@ a:visited {
 }
 a:hover,
 code .token.url {
-  text-decoration:underline
+  text-decoration:underline;
+  text-decoration-color:lightgrey;
 }
 body {
   display:grid;
