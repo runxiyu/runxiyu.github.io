@@ -34,6 +34,7 @@
   --color-faded:var(--color-dark-faded);
   --color-semi:var(--color-dark-semi)
 }
+/*
 @media (prefers-color-scheme:dark) {
   :root {
     --color-background:var(--color-dark);
@@ -48,6 +49,7 @@
     filter:invert(1) hue-rotate(180deg) saturate(140%)!important
   }
 }
+*/
 *,
 ::after,
 ::before {
