@@ -1,0 +1,46 @@
+I am considering switching to OVH, and I am reading the service specific 
+terms.  Most of it seems fine, but I don't understand some of the 
+limitations put on IRC:
+
+> For security reasons, OVHcloud reserves the right to proceed with the 
+> immediate suspension without notice of any OVHcloud Service on which 
+> there is a public service Proxy, IRC, VPN or TOR which is available 
+> free of charge or for a fee, and for which OVHcloud has knowledge of 
+> its fraudulent or illegal misuse.
+
+> Customer is prohibited from using or allowing the Services to be used 
+> for any intrusive activity or any intrusion attempts (including, but 
+> not limited to port scans, sniffing, spoofing), and any activity or 
+> contentious behavior such as traffic exchanging (Hitleap, Jingling), 
+> Black Hat SEO (downloading and uploading videos from and to online 
+> gaming platforms), crypto-currency mining, video game bots, etc. 
+> Anonymization services or public proxy (including VPN, Tor, P2P, IRC) 
+> and cardsharing (CCCam or equivalent) are not permitted on the 
+> Services.
+
+> The Customer acknowledges that, for security reasons, some features 
+> and protocols (such as IRC or peer-to-peer file exchanges) are likely 
+> to be restricted under the Services.
+
+I understand that public proxies, VPNs, and Tor can be easily abused.  I 
+do not, however, understand why IRC is in the list---I currently host a 
+small IRC network with a few friends (https://irc.runxiyu.org/), and I 
+don't really see how normal uses of Internet Relay Chat is relevant to 
+anonymization.  It's just a chat protocol.
+
+My question is therefore an inquiry on what OVH's policies are for IRC 
+networks that do not serve anonymization purposes at all, and how are 
+"some features and protocols such as IRC" restricted.
+
+As another network administrator says: "evidently IRC is 'anonymization' 
+despite it by default showing everyone's IPs to everyone, but other 
+messaging protocols that actually do anonymization aren't"
+
+(Note that one of the servers of irc.runxiyu.org has a Tor hidden 
+service, so users who use Tor can connect to it.  If this is not allowed 
+on OVH, I could just not install it when I switch.)
+
+--
+Best regards,
+Runxi Yu (they/them)
+https://runxiyu.org/
