@@ -190,6 +190,9 @@ section {
   width:100%;
   max-width:var(--max-page-width)
 }
+section#see-also {
+  margin-top: 5rem;
+}
 code.block {
   display:block;
   max-width:100%
