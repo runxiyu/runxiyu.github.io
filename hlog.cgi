@@ -2,7 +2,6 @@
 
 printf 'Content-Type: text/html\r\n\r\n'
 
-
 cat << EOF
 <!DOCTYPE html>
 <html lang="en">
